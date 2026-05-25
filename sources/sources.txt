@@ -1,0 +1,14 @@
+# AdGuard 中文规则
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+
+# AdBlock DNS Filters
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+
+# AWAvenue 秋风广告规则
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+
+# anti-AD
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+
+# AdRules
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt

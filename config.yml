@@ -1,0 +1,18 @@
+# Configuration for AdGuard Rules Merger
+
+download:
+  timeout: 30           # legacy shortcut: used as read timeout when read_timeout is absent
+  connect_timeout: 10   # TCP connect timeout in seconds
+  read_timeout: 30      # response read timeout in seconds
+  retries: 3            # retry count for transient HTTP failures
+  min_success_rate: 0.8 # fail when too many sources fail, keeping the previous published rules
+
+workers:
+  threads: 4            # concurrent downloads
+
+optimization:
+  enable: true          # when false, merged_lite.txt is copied from merged_all.txt
+  level: 2              # 0 = lightest, 3 = most aggressive
+  target_rules: 150000  # preferred final rule count
+  min_rules: 100000     # lower bound after optimization
+  max_rules: 200000     # upper bound after optimization

@@ -1,0 +1,26 @@
+# 运行时临时文件
+temp/
+rules-output/
+publish_dir/
+*.tmp
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+.test_tmp/
+tests/.tmp/
+venv/
+.env
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略生成的规则文件（防止污染 main 分支代码库）
+# 如果你希望在 main 分支也看到生成的规则，请删除下面这行
+rules/*.txt
+rules/*.sha256

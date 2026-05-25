@@ -1,0 +1,156 @@
+name: Update AdGuard Rules
+
+on:
+  schedule:
+    # UTC 01:00 = 北京时间 09:00
+    - cron: '00 1 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sources/sources.txt'
+      - 'scripts/**'
+      - '.github/workflows/update-rules.yml'
+
+concurrency:
+  group: adguard-rules-update
+  cancel-in-progress: false
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TZ: Asia/Shanghai
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        path: main_repo
+
+    - name: Checkout rules branch
+      uses: actions/checkout@v4
+      with:
+        ref: rules
+        path: publish_dir
+      continue-on-error: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        cd main_repo
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt pytest
+
+    - name: Run tests
+      run: |
+        cd main_repo
+        python -m pytest
+
+    - name: Generate rules
+      run: |
+        cd main_repo
+        echo "开始更新规则..."
+        python scripts/fetch_rules.py
+        python scripts/merge_rules.py
+        python scripts/optimize_rules.py
+        echo "规则生成完成。"
+
+    - name: Organize and Archive
+      run: |
+        if [ ! -d "publish_dir" ]; then
+          echo "Rules 分支不存在，创建新目录..."
+          mkdir -p publish_dir
+          cd publish_dir
+          git init
+          git checkout -b rules
+          cd ..
+        fi
+
+        TODAY=$(date +'%Y-%m-%d')
+
+        mkdir -p publish_dir/archive/$TODAY/full
+        mkdir -p publish_dir/archive/$TODAY/lite
+        mkdir -p publish_dir/latest/full
+        mkdir -p publish_dir/latest/lite
+
+        cp main_repo/rules/merged_all.txt publish_dir/archive/$TODAY/full/
+        cp main_repo/rules/merged_lite.txt publish_dir/archive/$TODAY/lite/
+        cp main_repo/rules/merge_stats.txt publish_dir/archive/$TODAY/full/ 2>/dev/null || true
+        cp main_repo/rules/optimization_stats.txt publish_dir/archive/$TODAY/lite/ 2>/dev/null || true
+
+        cp publish_dir/archive/$TODAY/full/merged_all.txt publish_dir/latest/full/
+        cp publish_dir/archive/$TODAY/lite/merged_lite.txt publish_dir/latest/lite/
+
+        cd publish_dir/latest/full
+        sha256sum merged_all.txt > merged_all.txt.sha256
+        cd ../lite
+        sha256sum merged_lite.txt > merged_lite.txt.sha256
+        cd ../../..
+
+        echo "清理旧归档..."
+        CUTOFF=$(date -d '30 days ago' +'%Y-%m-%d')
+        echo "清理截止日期: $CUTOFF"
+
+        for dir in publish_dir/archive/*/; do
+          dirname=$(basename "$dir")
+          if [[ "$dirname" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            if [[ "$dirname" < "$CUTOFF" ]]; then
+              echo "删除旧归档: $dirname"
+              rm -rf "$dir"
+            else
+              echo "保留归档: $dirname"
+            fi
+          fi
+        done
+
+        FULL_COUNT=$(grep -c '^[^!]' publish_dir/latest/full/merged_all.txt)
+        LITE_COUNT=$(grep -c '^[^!]' publish_dir/latest/lite/merged_lite.txt)
+
+        cat > publish_dir/index.md << EOF
+        # AdGuard 规则仓库索引
+
+        ## 快速订阅
+
+        - **精简版**: [latest/lite/merged_lite.txt](./latest/lite/merged_lite.txt)
+        - **完整版**: [latest/full/merged_all.txt](./latest/full/merged_all.txt)
+
+        ## 今日生成 ($TODAY)
+
+        | 版本 | 规则数 | 文件 |
+        | --- | --- | --- |
+        | 完整版 | $FULL_COUNT | archive/$TODAY/full/merged_all.txt |
+        | 精简版 | $LITE_COUNT | archive/$TODAY/lite/merged_lite.txt |
+        EOF
+
+        echo "文件整理完成。"
+
+    - name: Commit and Push
+      run: |
+        cd publish_dir
+
+        if [ ! -d ".git" ]; then
+          git init
+          git checkout -b rules
+        fi
+
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add .
+
+        if git diff --staged --quiet; then
+          echo "没有变更，跳过提交。"
+        else
+          git commit -m "Auto-update rules $(date +'%Y-%m-%d %H:%M:%S')"
+          git remote remove origin 2>/dev/null || true
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push origin rules
+          echo "已推送到 rules 分支"
+        fi
