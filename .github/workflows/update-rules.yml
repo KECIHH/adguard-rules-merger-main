@@ -137,8 +137,8 @@ jobs:
 
         if [ ! -d ".git" ]; then
           git init
-          git checkout -b rules
         fi
+        git checkout -B rules
 
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -151,6 +151,6 @@ jobs:
           git commit -m "Auto-update rules $(date +'%Y-%m-%d %H:%M:%S')"
           git remote remove origin 2>/dev/null || true
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-          git push origin rules
+          git push origin HEAD:rules
           echo "已推送到 rules 分支"
         fi
