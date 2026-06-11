@@ -5,9 +5,9 @@
 - **精简版**: [latest/lite/merged_lite.txt](./latest/lite/merged_lite.txt)
 - **完整版**: [latest/full/merged_all.txt](./latest/full/merged_all.txt)
 
-## 今日生成 (2026-06-10)
+## 今日生成 (2026-06-11)
 
 | 版本 | 规则数 | 文件 |
 | --- | --- | --- |
-| 完整版 | 300857 | archive/2026-06-10/full/merged_all.txt |
-| 精简版 | 150000 | archive/2026-06-10/lite/merged_lite.txt |
+| 完整版 | 304028 | archive/2026-06-11/full/merged_all.txt |
+| 精简版 | 150000 | archive/2026-06-11/lite/merged_lite.txt |
