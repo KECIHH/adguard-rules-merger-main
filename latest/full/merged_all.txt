@@ -1,5 +1,5 @@
 ! Merged AdGuard rules
-! Generated at: 2026-07-02 11:41:28
+! Generated at: 2026-07-02 12:57:33
 ! Total rules: 412,137
 !
 
