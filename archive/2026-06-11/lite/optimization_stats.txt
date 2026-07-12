@@ -1,8 +1,0 @@
-Optimized at: 2026-06-11 13:48:10
-Target rules: 150,000
-Original rules: 304,028
-Allow rules: 5,813
-Block rules: 298,215
-Selected block rules: 144,187
-Final rules: 150,000
-Reduction ratio: 50.7%
