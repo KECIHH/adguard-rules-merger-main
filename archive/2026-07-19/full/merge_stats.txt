@@ -1,0 +1,10 @@
+Merged at: 2026-07-19 12:20:53
+Processed lines: 701,464
+Invalid/skipped lines: 947
+Duplicate rules: 256,200
+Local rules: 0
+Final unique rules: 444,317
+allow: 5897
+domain: 378164
+other: 60215
+regex: 41
