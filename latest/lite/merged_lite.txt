@@ -1,6 +1,6 @@
 ! Optimized AdGuard rules
-! Generated at: 2026-10-29 15:19:49
-! Original rules: 421,983
+! Generated at: 2026-10-30 14:49:52
+! Original rules: 422,931
 ! Optimized rules: 150,000
 ! Reduction ratio: 64.5%
 !
@@ -192,6 +192,7 @@
 @@/js/detect-blocked-ads.js$domain=prod.static.cardinals.clubs.nfl.com,script
 @@/js/lib/controllers/Leitor/Leitor.min.js$domain=mangasproject.com.br|mangasproject.net.br|mangas.zlx.com.br,script
 @@/js/prebid-$domain=huruwo.top
+@@/js/prebid/*/others/*$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de,script
 @@/log/report/*$domain=bilibili.com,script
 @@/main/js/ad*.js$domain=writing.com,script,third-party
 @@/media/*/zpr_footer/js/pageear.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl|se.pl
@@ -227,6 +228,7 @@
 @@/smarttag.js$domain=rte.ie,~3p
 @@/social-share.$domain=patentguru.com
 @@/static/image/ad*.png$domain=adf.ly|j.gs|q.gs|ay.gy,image
+@@/storage/js/*.js$domain=wowmail.app|inipulsa.my.id|anon.tools|s-nr.dk,~3p
 @@/store_ad/*$domain=pcstore.com.tw
 @@/themes/flow/frontend_assets/js/advertisement.js|$~3p
 @@/unadblock/adjs_$domain=hepan.com
@@ -312,7 +314,6 @@
 @@||10086.cn^*/ad$~3p
 @@||10086.cn^*/ad$~third-party
 @@||101soundboards.com^$generichide
-@@||10play.com.au^$generichide
 @@||111.75.255.103/Scripts/Controls/PageView.js
 @@||113.com.tw/www/image/index-ad.png
 @@||115.28.114.149^*&adf=dalian_300x250_
@@ -650,6 +651,7 @@
 @@||ads.colombiaonline.com/ad/$domain=colombiaonline.com
 @@||ads.console.aliyun.com^
 @@||ads.cs.washington.edu^
+@@||ads.dblink.us$~3p,~image
 @@||ads.doordash.com^
 @@||ads.doordash.com^$popup
 @@||ads.elevateplatform.co.uk^
@@ -950,6 +952,7 @@
 @@||androidauthority.net/wp-content/uploads/*-300x600.$domain=androidauthority.com,image
 @@||androidcentral.com/content/$domain=androidcentral.com,xhr
 @@||androidrepublic.org^$generichide
+@@||androidtvbox-*.netdna-ssl.com/wp-content/uploads/siteground-optimizer-assets/adning_dummy_advertising.min.js$domain=androidtvbox.eu
 @@||anhuinews.com/zhuyeguanli/2020ad/xidad.jpg
 @@||ani.gamer.com.tw^$generichide
 @@||ani4u.org^$generichide
@@ -1111,6 +1114,7 @@
 @@||assets.macys.com/dyn_img/site_ads/
 @@||assets.msn.com/bundles/v*/edgeChromium/latest/native-ad-sales-highlight-v*.js$domain=ntp.msn.com
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
+@@||assets.strossle.com^*/strossle-widget-sdk.js$domain=kaaoszine.fi,script
 @@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 @@||assoc-amazon.com/widgets/cm?$domain=atcoder.jp,subdocument
 @@||astatic.ccmbg.com^*/prebid$domain=linternaute.com,script
@@ -1807,6 +1811,7 @@
 @@||cruisecenter.com.tw/data/ad/
 @@||cruisingearth.com/community/js/BJumh/top-ads.js
 @@||crunchyroll.com/*/ads_enabled_flag.js$script
+@@||crystalmark.info/wp-content/uploads/*-300x250.$image,~3p
 @@||crystalmark.info/wp-content/uploads/sites/$image,~3p
 @@||cs.silverpop.com^
 @@||csdn.net/static/static/js/apps/popShow.js
@@ -2008,6 +2013,7 @@
 @@||download.megaup.net/openads.js$script,~third-party
 @@||download.mokeedev.com^$genericblock,generichide
 @@||download.pixelexperience.org^$generichide
+@@||dozenofelites.com^$elemhide
 @@||dpbolvw.net^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||dqzsteel.com/Website/Image/guanggao/
 @@||dragoart.com/ads.js$script,~third-party
@@ -2238,6 +2244,7 @@
 @@||filejoker.net^$image,~3p
 @@||filelions.*/js/boxad.js
 @@||fileone.tv/file/$domain=fileone.tv
+@@||files*.lynda.com/secure/courses/*.mp4$domain=linkedin.com|lynda.com,media
 @@||files.1drv.com^
 @@||files.fm/js/analytics_events.js$~third-party
 @@||files.slack.com^$image,~3p
@@ -2427,6 +2434,7 @@
 @@||gelbooru.com/script/jquery*.js
 @@||gelbooru.com/script/lazyload.js
 @@||gemini.google.com^$generichide
+@@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||gemius.pl/gplayer.js$domain=tsn.ua
 @@||gemius.pl/gplayer.js$script,third-party
 @@||gemius.pl/gstream.js
@@ -2613,7 +2621,7 @@
 @@||googletagmanager.com/gtag/js?id=$domain=atozmath.com
 @@||googletagmanager.com/gtag/js?id=$domain=decrypt.day
 @@||googletagmanager.com/gtag/js?id=$domain=linkneverdie.net
-@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|9to5mac.com|acehardware.com|acornonline.com|adorama.com|ads.spotify.com|aena.es|aeon.co.jp|aeromexico.com|afisha.timepad.ru|airhaifa.com|aliexpress.com|almamedia.fi|ampparit.com|anacondastores.com|animeanime.jp|anond.hatelabo.jp|app.joinhandshake.com|applesfera.com|aruba.it|arvopaperi.fi|atgtickets.com|atptour.com|aussiebum.com|auth.max.com|autobild.de|autoplus.fr|autorevue.cz|avis.com|axeptio.eu|b2c.voegol.com.br|backcountry.com|baywa-re.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|biletix.com|binglee.com.au|bombas.com|book.impress.co.jp|bsa-whitelabel.com|bunte.de|businessinsider.jp|butcherblockco.com|bybit.com|bybitglobal.com|caminteresse.fr|campograndenews.com.br|canadiantire.ca|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|cashier.dmm.co.jp|cashier.dmm.com|ccleaner.com|cdek.ru|cdon.fi|checkout.ao.com|chipotle.com|chronopost.fr|cinemacafe.net|cityheaven.net|ckdtrialfinder.natera.com|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|cora.fr|cosmo-hairshop.de|costco.co.jp|costco.co.uk|courses.monoprix.fr|cram.com|crello.com|currys.co.uk|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|de.hgtv.com|deejay.it|dengekionline.com|dholic.co.jp|digitalocean.com|directoalpaladar.com|directv.com|dlsite.com|dmax.de|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|eat.co.nz|ecmweb.com|ecovacs.com|edwardjones.com|eki-net.com|elcorteingles.es|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.ee|euronics.it|expressvpn.com|famesupport.com|fandom.com|farmaciabolli1833.it|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|findernet.com|flets.com|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|froxy.com|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|globalblue.com|globo.com|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|hepsiburada.com|herculesstands.com|hobbyhall.fi|hobbystock.jp|hokkaido-np.co.jp|homeinspector.org|hostingvergelijker.nl|hotelfountaingate.com.au|idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|insightsoftware.com|investor.natera.com|iodonna.it|iphoneitalia.com|ireland.ie|j-wave.co.jp|jalan.net|jbhifi.co.nz|jbhifi.com.au|jn.pt|join.kazm.com|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|karriere.heldele.de|kauppalehti.fi|kedronparkhotel.com.au|kfc.co.jp|kilian-metall.de|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|kitamura.jp|komputronik.pl|konami.com|kontan.co.id|la7.it|ladepeche.fr|larousse.fr|lastampa.it|lasvegasentuidioma.com|lbc.co.uk|lecker.de|lequipeur.com|level.travel|libellud.com|life.fi|lift.co.za|linternaute.com|lippu.fi|loopearplugs.com|luko.eu|m1.com|m2o.it|magazineluiza.com.br|mainichi.jp|makitani.net|mall.heiwa.jp|mangaseek.net|marks.com|mcgeeandco.com|mecindo.no|mediamarkt.nl|medibank.com.au|medibankoshc.com.au|mediuutiset.fi|mercell.com|meritonsuites.com.au|midilibre.fr|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|morimotohid.com|mustar.meitetsu.co.jp|mycar-life.com|mysmartprice.com|nanikanokami.github.io|nap-camp.com|net-chuko.com|netcombo.com.br|news-postseven.com|newscafe.ne.jp|nexon.com|nflgamepass.com|ngv.vic.gov.au|nielsendodgechryslerjeepram.com|nihontsushin.com|noelleeming.co.nz|nordvpn.com|nourison.com|nove.tv|nowtv.com.tr|o2.co.uk|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onepodcast.it|online-shop.mb.softbank.jp|online.ysroad.co.jp|onlineshop.ocn.ne.jp|order.fiveguys.com|orpi.com|oxylabs.io|papajohns.com|pccomponentes.com|petsathome.com|petzl.com|pgatoursuperstore.com|philips.com|pioneer.eu|plaion.com|plantsome.ca|plex.tv|pohjanmaanhyvinvointi.fi|poprosa.com|porsche.com|portofoonwinkel.nl|post.ch|posti.fi|pptvhd36.com|primeoak.co.uk|prisjakt.nu|prisonfellowship.org|prizehometickets.com.au|proxyscrape.com|qrcode-monkey.com|radiko.jp|radiobob.de|radiorur.de|rbbtoday.com|reanimal.jp|remax.com.ar|resemom.jp|response.jp|rhbgroup.com|rocketnews24.com|rtl.de|rumba.fi|rustih.ru|rydercup.com|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|service.smt.docomo.ne.jp|servicing.loandepot.com|shonenjumpplus.com|shop.clifbar.com|shop.moen.com|shoprite.com|sloways.eu|smartbox.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport1.de|sportingnews.com|sportiva.shueisha.co.jp|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|str.toyokeizai.net|stressless.com|stuttgarter-nachrichten.de|subscribe.greenbuildingadvisor.com|sunnybankhotel.com.au|superesportes.com.br|support.bose.com|support.brother.com|support.creative.com|support.knivesandtools.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|tbsradio.jp|teddyfood.com|tekniikkatalous.fi|telia.no|thecw.com|theretrofitsource.com|thesandshotel.com.au|tickethour.com|ticketmaster.ae|ticketmaster.at|ticketmaster.be|ticketmaster.ca|ticketmaster.ch|ticketmaster.cl|ticketmaster.co.il|ticketmaster.co.nz|ticketmaster.co.uk|ticketmaster.co.za|ticketmaster.com|ticketmaster.com.au|ticketmaster.com.br|ticketmaster.com.mx|ticketmaster.cz|ticketmaster.de|ticketmaster.dk|ticketmaster.es|ticketmaster.fi|ticketmaster.fr|ticketmaster.gr|ticketmaster.ie|ticketmaster.it|ticketmaster.nl|ticketmaster.no|ticketmaster.pe|ticketmaster.pl|ticketmaster.se|ticketmaster.sg|tickets.georgiaaquarium.org|tide.com|tilt.fi|time.com|tivi.fi|tixcraft.com|tn.com.ar|tomshw.it|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|transa.ch|tredz.co.uk|trendencias.com|trendenciashombre.com|trendyol-milla.com|trendyol.com|trespa.info|tribuna.com|truckspring.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|uusisuomi.fi|veho.fi|vidaextra.com|video.lacnews24.it|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|vuokraovi.com|wamiz.com|watson.ch|watsons.com.tr|willyweather.com.au|workingclassheroes.co.uk|wowma.jp|wpb.shueisha.co.jp|www.gov.pl|xatakamovil.com|xxl.se|ybt.sapporobeer.jp|ymobile.jp|yotsuba-shop.com|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zipair.net|zive.cz|zozo.jp
+@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|9to5mac.com|acehardware.com|acornonline.com|adorama.com|ads.spotify.com|aena.es|aeon.co.jp|aeromexico.com|afisha.timepad.ru|airhaifa.com|aliexpress.com|almamedia.fi|ampparit.com|anacondastores.com|animeanime.jp|anond.hatelabo.jp|app.joinhandshake.com|applesfera.com|aruba.it|arvopaperi.fi|atgtickets.com|atptour.com|aussiebum.com|auth.max.com|autobild.de|autoplus.fr|autorevue.cz|avis.com|axeptio.eu|b2c.voegol.com.br|backcountry.com|baywa-re.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|biletix.com|binglee.com.au|bombas.com|book.impress.co.jp|bsa-whitelabel.com|bunte.de|businessinsider.jp|butcherblockco.com|bybit.com|bybitglobal.com|caminteresse.fr|campograndenews.com.br|canadiantire.ca|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|cashier.dmm.co.jp|cashier.dmm.com|ccleaner.com|cdek.ru|cdon.fi|checkout.ao.com|chipotle.com|chronopost.fr|cinemacafe.net|cityheaven.net|ckdtrialfinder.natera.com|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|cora.fr|cosmo-hairshop.de|costco.co.jp|costco.co.uk|courses.monoprix.fr|cram.com|crello.com|currys.co.uk|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|de.hgtv.com|deejay.it|dengekionline.com|dholic.co.jp|digitalocean.com|directoalpaladar.com|directv.com|dlsite.com|dmax.de|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|eat.co.nz|ecmweb.com|ecovacs.com|edwardjones.com|eki-net.com|elcorteingles.es|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.ee|euronics.it|expressvpn.com|famesupport.com|fandom.com|farmaciabolli1833.it|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|findernet.com|flets.com|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|froxy.com|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|globalblue.com|globo.com|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|hepsiburada.com|herculesstands.com|hobbyhall.fi|hobbystock.jp|hokkaido-np.co.jp|homeinspector.org|hostingvergelijker.nl|hotelfountaingate.com.au|idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|insightsoftware.com|investor.natera.com|iodonna.it|iphoneitalia.com|ireland.ie|j-wave.co.jp|jalan.net|jbhifi.co.nz|jbhifi.com.au|jn.pt|join.kazm.com|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|karriere.heldele.de|kauppalehti.fi|kedronparkhotel.com.au|kfc.co.jp|kilian-metall.de|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|kitamura.jp|komputronik.pl|konami.com|kontan.co.id|la7.it|ladepeche.fr|larousse.fr|lastampa.it|lasvegasentuidioma.com|lbc.co.uk|lecker.de|lequipeur.com|level.travel|libellud.com|life.fi|lift.co.za|linternaute.com|lippu.fi|locautorent.com|loopearplugs.com|luko.eu|m1.com|m2o.it|magazineluiza.com.br|mainichi.jp|makitani.net|mall.heiwa.jp|mangaseek.net|marks.com|mcgeeandco.com|mecindo.no|mediamarkt.nl|medibank.com.au|medibankoshc.com.au|mediuutiset.fi|mercell.com|meritonsuites.com.au|midilibre.fr|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|morimotohid.com|mustar.meitetsu.co.jp|mycar-life.com|mysmartprice.com|nanikanokami.github.io|nap-camp.com|net-chuko.com|netcombo.com.br|news-postseven.com|newscafe.ne.jp|nexon.com|nflgamepass.com|ngv.vic.gov.au|nielsendodgechryslerjeepram.com|nihontsushin.com|noelleeming.co.nz|nordvpn.com|nourison.com|nove.tv|nowtv.com.tr|o2.co.uk|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onepodcast.it|online-shop.mb.softbank.jp|online.ysroad.co.jp|onlineshop.ocn.ne.jp|order.fiveguys.com|orpi.com|oxylabs.io|papajohns.com|pccomponentes.com|petsathome.com|petzl.com|pgatoursuperstore.com|philips.com|pioneer.eu|plaion.com|plantsome.ca|plex.tv|pohjanmaanhyvinvointi.fi|poprosa.com|porsche.com|portofoonwinkel.nl|post.ch|posti.fi|pptvhd36.com|primeoak.co.uk|prisjakt.nu|prisonfellowship.org|prizehometickets.com.au|proxyscrape.com|qrcode-monkey.com|radiko.jp|radiobob.de|radiorur.de|rbbtoday.com|reanimal.jp|remax.com.ar|resemom.jp|response.jp|rhbgroup.com|rocketnews24.com|rtl.de|rumba.fi|rustih.ru|rydercup.com|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|service.smt.docomo.ne.jp|servicing.loandepot.com|shonenjumpplus.com|shop.clifbar.com|shop.moen.com|shoprite.com|sloways.eu|smartbox.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport1.de|sportingnews.com|sportiva.shueisha.co.jp|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|str.toyokeizai.net|stressless.com|stuttgarter-nachrichten.de|subscribe.greenbuildingadvisor.com|sunnybankhotel.com.au|superesportes.com.br|support.bose.com|support.brother.com|support.creative.com|support.knivesandtools.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|tbsradio.jp|teddyfood.com|tekniikkatalous.fi|telia.no|thecw.com|theretrofitsource.com|thesandshotel.com.au|tickethour.com|ticketmaster.ae|ticketmaster.at|ticketmaster.be|ticketmaster.ca|ticketmaster.ch|ticketmaster.cl|ticketmaster.co.il|ticketmaster.co.nz|ticketmaster.co.uk|ticketmaster.co.za|ticketmaster.com|ticketmaster.com.au|ticketmaster.com.br|ticketmaster.com.mx|ticketmaster.cz|ticketmaster.de|ticketmaster.dk|ticketmaster.es|ticketmaster.fi|ticketmaster.fr|ticketmaster.gr|ticketmaster.ie|ticketmaster.it|ticketmaster.nl|ticketmaster.no|ticketmaster.pe|ticketmaster.pl|ticketmaster.se|ticketmaster.sg|tickets.georgiaaquarium.org|tide.com|tilt.fi|time.com|tivi.fi|tixcraft.com|tn.com.ar|tomshw.it|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|transa.ch|tredz.co.uk|trendencias.com|trendenciashombre.com|trendyol-milla.com|trendyol.com|trespa.info|tribuna.com|truckspring.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|uusisuomi.fi|veho.fi|vidaextra.com|video.lacnews24.it|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|vuokraovi.com|wamiz.com|watson.ch|watsons.com.tr|willyweather.com.au|workingclassheroes.co.uk|wowma.jp|wpb.shueisha.co.jp|www.gov.pl|xatakamovil.com|xxl.se|ybt.sapporobeer.jp|ymobile.jp|yotsuba-shop.com|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zipair.net|zive.cz|zozo.jp
 @@||googletagmanager.com/gtm.js$domain=allfaucet.xyz
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|mamibuy.com.tw|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -2622,6 +2630,7 @@
 @@||googletagmanager.com/gtm.js$domain=kfc.co.th
 @@||googletagmanager.com/gtm.js$domain=laprovence.com
 @@||googletagmanager.com/gtm.js$domain=motorsport.com
+@@||googletagmanager.com/gtm.js$domain=moviefone.com
 @@||googletagmanager.com/gtm.js$domain=radio.at|radio.net|radio.de
 @@||googletagmanager.com/gtm.js$domain=redbull.com
 @@||googletagmanager.com/gtm.js$domain=se.pl
@@ -2635,6 +2644,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=edition.cnn.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=ikitesurf.com
+@@||googletagservices.com/tag/js/gpt.js$domain=techrepublic.com
 @@||googletagservices.com/tag/js/gpt.js$domain=topuniversities.com
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|tvbs.com.tw|www.gamer.com.tw
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
@@ -2860,6 +2870,7 @@
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idos.idnes.cz^$csp
 @@||ieeexplore.ieee.org^$removeparam
+@@||ienohikari.net/ad/common/$~3p
 @@||ienohikari.net/ad/img/$~3p
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
@@ -2869,6 +2880,7 @@
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ikea.cn^*/img/ads/
 @@||ikea.com^*/analyticsEvent.$script,~third-party
+@@||iko-yo.net/system/ad_images/$~3p
 @@||ilpuntotecnico.com^$generichide
 @@||image.mp3.zdn.vn/banner/
 @@||image.shutterstock.com^$domain=icons8.com,image
@@ -3021,6 +3033,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vvvvid.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetv.vip
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wibc.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wordgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wsls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wuxiaworld.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=xxxdan.com
@@ -3033,7 +3046,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=24ur.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=f5haber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=zattoo.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=10play.com.au|10.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|digi24.ro|gbnews.com|history.com|kcci.com|kcra.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|sonyliv.com|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|watchcharge.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=aetv.com|mylifetime.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=btvplus.bg
@@ -3107,6 +3119,7 @@
 @@||infinityscans.*/*.js$domain=infinityscans.xyz|infinityscans.net|infinityscans.org,script
 @@||infobel.com/Scripts/custom/*.js
 @@||informazionefiscale.it^$generichide
+@@||infotel.ca/images/ads/$image,~3p
 @@||infotop.jp/html/ad/$image,~3p
 @@||infoworld.com/www/js/ads/gpt_includes.js$~3p
 @@||infra-api.newrelic.com^
@@ -3665,7 +3678,6 @@
 @@||moyens.net^$generichide
 @@||mozilla.org/api$removeparam
 @@||mozu.com^*/monetate.js$domain=acehardware.com,script
-@@||mp.mmvideocdn.com/mini-player/$domain=clutchpoints.com
 @@||mp.mmvideocdn.com/mini-player/$domain=nypost.com
 @@||mp.mmvideocdn.com/mini-player/prod/$domain=si.com
 @@||mp.mmvideocdn.com/mini-player/prod/voltax_$domain=theplayerstribune.com
@@ -3721,6 +3733,7 @@
 @@||mymanga.io/css/ads.css$stylesheet
 @@||myneobuxportal.com/wp-content/plugins/*/adblock-detector/advertisement.js
 @@||myshorturls.blogspot.com^$generichide
+@@||mysmth.net/nForum/*/ADAgent_$~3p
 @@||mysocceraustralia.com^$generichide
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
@@ -4078,6 +4091,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robcoins.eu,script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robotcoingame.com|monstercoingame.com|wonderlandco.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rocketfaucet.co.in,script
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rte.ie
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=safelink.miuipedia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sammobile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=satdl.com
@@ -4562,7 +4576,6 @@
 @@||rd.bizrate.com^
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=joblo.com
-@@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com|toptenz.net
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||read.amazon.co.jp/*/show_ad.js$script,~3p
 @@||readmoo.com/images/social/
@@ -4864,6 +4877,7 @@
 @@||seznam.cz/?spec=*&url=$domain=search.seznam.cz,image
 @@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/_static/$domain=kosmofoto.com,script
 @@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/wp-content/$domain=kosmofoto.com,script
+@@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/wp-includes/$domain=kosmofoto.com,script
 @@||sf.nm-ovp.nelonenmedia.fi/player/assets/ad/admanager.js$domain=ruutu.fi,script
 @@||sgqcvfjvr.onet.pl^
 @@||sgtm.farmasave.it^$script,~third-party
@@ -5057,6 +5071,7 @@
 @@||ssai.aniview.com^
 @@||sshkit.com^$generichide
 @@||ssl-images-amazon.com^*/satelliteLib-$domain=audible.com,script
+@@||ssl.p.jwpcdn.com^$domain=bdsmstreak.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$domain=search.naver.com,script
 @@||ssl.sdcdn.com/cms/ads/*$domain=stardoll.com
 @@||sso.serverplan.com/manage2fa/check?ref=$removeparam
@@ -5066,6 +5081,7 @@
 @@||st.bebi.com/bebi_v3.js$domain=lolhentai.net,script
 @@||st.vtomske.ru/js/adv*.js$script
 @@||stackblitz.com^$generichide
+@@||standard.co.uk/js/third-party/prebid8.$~3p
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||stapewithadblock.monster^$generichide
 @@||star.c10r.facebook.com^
@@ -5324,6 +5340,7 @@
 @@||thehansindia.com/xhr/
 @@||themarker.com/htz/js/advertisement.js
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
+@@||thememypc.net/wp-content/plugins/nervous-pleasure/assets/js/advertisement.min.js
 @@||themes.googleusercontent.com/static/fonts/$domain=tweaktown.com
 @@||themeslide.com^$generichide
 @@||themoviedb.org/assets/
@@ -5375,6 +5392,7 @@
 @@||tm.regions.com/tags.js$~third-party
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
+@@||tmearn.com/js/ads*.js
 @@||tms.capitalone.com^
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tn.voyeurhit.com^$domain=voyeurhit.tube
@@ -5824,6 +5842,7 @@
 @@||www.pussyspace.net/style/03/img/speed-dials.png|
 @@||www.pussyspace.net/style/03/img/x-sprite.png|
 @@||www.pussyspace.net/style/10/img/logo.png|
+@@||www.pussyspace.net/style/img/abuse.email.png#|
 @@||www.pussyspace.net/style/img/navbg.hover.png|
 @@||www.pussyspace.net/style/webcam.jpg|
 @@||www.pussyspace.net/upload/no_img.jpg|
@@ -5924,6 +5943,7 @@
 @@||yospace.com^$domain=reuters.com
 @@||yottaa.net^$domain=containerstore.com|hannaandersson.com,script
 @@||you.visualdna.com/user/iab^$domain=youronlinechoices.com
+@@||youchien.net/ad/*/ad/img/$~3p
 @@||youchien.net/css/ad_side.css$~3p
 @@||youfap.me/intermission/loadTargetUrl$xmlhttprequest
 @@||youku.com/cms/player/userinfo/
@@ -5976,6 +5996,7 @@
 @@||zive.cz/Client.Scripts/advertisment.js
 @@||zjjcxy.cn^*/ad.css?$stylesheet
 @@||zohopublic.com^*/ADManager_$domain=manageengine.com|zohopublic.com,subdocument,xhr
+@@||zonebourse.com/js/googleads.js
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zoomtv.me/*/js/ads.js$script
 @@||zpmobi.cn^*/ad.css?$stylesheet
@@ -7665,6 +7686,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||0qo1.com^
 ||0qry58i9es.com^
 ||0qxfxqif0.com^
+||0r5e0xvwes.com^
 ||0rbitalis.com^
 ||0ref.com^
 ||0rip.com^
@@ -9667,6 +9689,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||1ccbt.com^
 ||1cctcm1gq.de^
 ||1cd21cb1e4.com^
+||1cfc722af4.com^
 ||1chtx8re2.com^
 ||1cimslrk3.com^
 ||1ckbfk08k.de^
@@ -9763,6 +9786,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||1i8c0f11.de^
 ||1igare0jn.de^
 ||1indiabook.com^
+||1ink.cc^
 ||1inplatforms.net^
 ||1itot7tm.de^
 ||1iuh5l.com^
@@ -11318,8 +11342,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||3ie0h3b.com^
 ||3ihfo0.aplli.pl^
 ||3ikcnjvsx.com^
+||3il3.net^
 ||3is34bpqs4.com^
 ||3iulae112b.com^
+||3j14.com^
 ||3j4vjpx7k.com^
 ||3j8c56p9.de^
 ||3jia5.com^
@@ -11453,7 +11479,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||4009997658.com^
 ||400bz.com^
 ||400degrees.com^
-||401ingear.com^
 ||401l.com^
 ||402.japfest.be^
 ||402.japfest.nl^
@@ -11599,6 +11624,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||44ye.com^
 ||45.32.105.134^
 ||45.82.68.79^
+||450218.web-office-v3.east-ca-analytics.sussybaka.store^
 ||45052386ab.com^
 ||450a.feet9.com^
 ||450years.com^
@@ -11612,7 +11638,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||45675.world^
 ||4567hh.com^
 ||4567qp.com^
-||456fluxara.com^
 ||456mov.net^
 ||456qn.com^
 ||457215.lat^
@@ -12173,6 +12198,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||5566333.cn^
 ||5566ua.com^
 ||5568.gjghy.com^
+||556852.sbs^
 ||557523.com^
 ||557ma7bd9.com^
 ||558158.xyz^
@@ -12418,6 +12444,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||5kov1f2o.xyz^
 ||5krki6n2rh.com^
 ||5kstore.com^
+||5kynuuno.top^
 ||5leosgto.xyz^
 ||5lfgdju.com^
 ||5lz3u8s5uq.com^
@@ -12496,7 +12523,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||5zxkdat6t8.com^
 ||6-partner.com^
 ||60.190.139.164^
-||6000function.com^
 ||600977f9ec.com^
 ||600ad.com^
 ||600fiber.net^
@@ -12520,6 +12546,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||60999.cn^
 ||609999.xyz^
 ||60ah.com^
+||60cxjeiyq.com^
 ||60e9de5082.com^
 ||60ecf22b99.com^
 ||60gp.ovh.net^
@@ -12667,6 +12694,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||6778643.lat^
 ||6788787.com^
 ||6789.net^
+||678coin.top^
 ||6792.cn^
 ||679tk.com^
 ||67c15249d7.com^
@@ -12724,6 +12752,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||6a4cc.luvbq.com^
 ||6a4cc.luvbr.com^
 ||6a4cc.luytr.com^
+||6a4oabslx.com^
 ||6a70838881.com^
 ||6a7eac2034.com^
 ||6a80d8df82.com^
@@ -12794,6 +12823,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||6ign0q6xb1.com^
 ||6iiz8ni96v.com^
 ||6iwoif.com^
+||6iwulft12t.com^
 ||6iyq4atled.com^
 ||6j296m8k.de^
 ||6j7ywcn8sx.com^
@@ -13380,7 +13410,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||8289.tv^
 ||82d36b5fc4.com^
 ||82o9v830.com^
-||830fluxar.com^
 ||8315.cn^
 ||8330bccb63.com^
 ||83692.com^
@@ -13477,6 +13506,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||8819.cc^
 ||88210212.com^
 ||882793fb7a.com^
+||88558.vip^
 ||8861198.com^
 ||8861202.com^
 ||8866786.com^
@@ -13809,7 +13839,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||92yp.com^
 ||930cn.top^
 ||930networks.net^
-||930outblend.com^
 ||93260e3d3e.com^
 ||93423fa56d.com^
 ||934285023e.com^
@@ -13875,6 +13904,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||963fc.com^
 ||964ka.cn^
 ||9675987.lat^
+||9687473626.cfd^
 ||96d2c00b3e.com^
 ||96e7bee058.com^
 ||96fb5jhkn3.com^
@@ -15781,6 +15811,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||abhalten.de^
 ||abhauen.de^
 ||abhmssqcicgr.net^
+||abidersstaio.com^
 ||abiencerheas.com^
 ||abigfishing.com^
 ||abilaefax.com^
@@ -15988,6 +16019,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||accaii.com^
 ||accamesten.store^
 ||accanalyze.com^
+||accanfissi.store^
 ||accbhebkemaj.com^
 ||accbing.com^
 ||accbulk.com^
@@ -16041,6 +16073,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||accoybrava.com^
 ||accoynots.cfd^
 ||accrudonage.net^
+||accruewell.pro^
 ||accsmarket.net^
 ||accuplaccer.org^
 ||accupymoss.com^
@@ -16237,6 +16270,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||act.wynk.in^
 ||actaminiken.cfd^
 ||actandart.net^
+||actarum.com^
 ||actdi.rumpl.com^
 ||actedsickle.com^
 ||actglimpse.com^
@@ -16488,6 +16522,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ad.adjw.co.kr^
 ||ad.admine.co.kr^
 ||ad.ads-ing.de^
+||ad.adserverst.com^
 ||ad.adtrck5.de^
 ||ad.adwiser.kr^
 ||ad.ae.doubleclick.net^
@@ -18536,6 +18571,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||adprotect.net^
 ||adprotected.com^
 ||adproxy.tf1.fr^
+||adprudence.com^
 ||adpub.yaolan.com^
 ||adpulse.ir^
 ||adpush.cn^
@@ -18733,6 +18769,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ads.aksam.com.tr^
 ||ads.alaatv.com^
 ||ads.aland.com^
+||ads.albamon.com^
 ||ads.albawaba.com^
 ||ads.albox.co^
 ||ads.allizom.org^
@@ -18883,8 +18920,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ads.dada.it^
 ||ads.db.com^
 ||ads.de-media.de^
+||ads.debati.bg^
 ||ads.deca.mk^
 ||ads.deeplush.com^
+||ads.deepzero.com^
 ||ads.deltha.hu^
 ||ads.deltra.de^
 ||ads.devmates.com^
@@ -18996,6 +19035,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ads.gcp.roku.com^
 ||ads.geeks.hu^
 ||ads.gemini.media^
+||ads.genius.app^
 ||ads.genoads.com^
 ||ads.geocities.ws^
 ||ads.getlucky.com^
@@ -19103,6 +19143,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ads.jubii.dk^
 ||ads.jungle.world^
 ||ads.jurisads.com^
+||ads.jvmag.ch^
 ||ads.ka6tata.com^
 ||ads.kafepauza.mk^
 ||ads.kajgana.com^
@@ -19976,6 +20017,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||adserver.forum-media.eu^
 ||adserver.foxsportseugene.com^
 ||adserver.freenet.de^
+||adserver.freeyfi.com^
 ||adserver.friendfinder.com^
 ||adserver.fwv.de^
 ||adserver.galeriasavaria.hu^
@@ -21656,6 +21698,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||againdivine.com^
 ||againstnext.com^
 ||agajx.com^
+||agallianz.eu^
 ||agalumineonr.com^
 ||agapikachua.com^
 ||agaskrelpr.com^
@@ -21691,6 +21734,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||agency2.ru^
 ||agency23.top^
 ||agency360.io^
+||agencydog.com^
 ||agencytroops.com^
 ||agendaorator.com^
 ||agent-telemetry.charter-prod.hosted.cujo.io^
@@ -21714,6 +21758,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aggfkyqu.com^
 ||agggufahxom.com^
 ||agghhivwi.com^
+||aggiudipos.store^
 ||aggle.net^
 ||aggora.co.uk^
 ||aggracompu.store^
@@ -21876,6 +21921,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ahie.top^
 ||ahilla.com^
 ||ahisu.com^
+||ahive.shop^
 ||ahjdx.com^
 ||ahkbpootnm.com^
 ||ahkjheavc.in^
@@ -21886,7 +21932,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ahlxxx.com^
 ||ahm.135320.com^
 ||ahmjn.koala.com^
-||ahmktufipp.com^
 ||ahmybid.net^
 ||ahnlabad.com^
 ||aholtashler.com^
@@ -22060,6 +22105,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aimoda.cn^
 ||aimoda.com.cn^
 ||aimogame.com^
+||aimonsters.club^
 ||aimpodrinsy.net^
 ||aimtell.com^
 ||aimukreegee.net^
@@ -22120,8 +22166,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aio.online^
 ||aiode.cn^
 ||aipians5.sbs^
+||aipl-profit.com^
 ||aipmedia.com^
 ||aipofeem.net^
+||aipro-ai.com^
 ||aipsougnuls.com^
 ||aipu.mobi^
 ||aiqidwcfrm.com^
@@ -22236,6 +22284,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aisyncad.com^
 ||aita-asia.com^
 ||aitai.biz^
+||aitidetor.store^
 ||aitpqm.com^
 ||aitrades.com^
 ||aitsatho.com^
@@ -22362,6 +22411,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ajillionmax.com^
 ||ajiloo.ir^
 ||ajjdagokxajb.com^
+||ajjgakza.in^
 ||ajjhumjinx.com^
 ||ajjjhuaq.com^
 ||ajjkmooarbow.top^
@@ -22482,7 +22532,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||akknroojtna.com^
 ||akkoknlfoa.in^
 ||akkombojk.com^
-||akkosljco.com^
 ||akku-laden.at^
 ||akkusnotebook.at^
 ||akkwoksley.org^
@@ -22708,6 +22757,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alderqevon.com^
 ||aldersurvey.net^
 ||aldi.dwelnex.com^
+||aldidequegh.cfd^
 ||aldik.com^
 ||aldiscareer.com^
 ||aldkfsd.cn^
@@ -22735,6 +22785,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aleja.lt^
 ||alekonta.pl^
 ||aleldrodm.com^
+||alemabur.com^
 ||alemu4s.com^
 ||alengthmoho.cfd^
 ||alenty.com^
@@ -22911,6 +22962,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||allabc.com^
 ||alladvantage.com^
 ||allaironchan.com^
+||allamimbru.store^
 ||allaqxoh.com^
 ||allaris.org^
 ||allavv.xyz^
@@ -22976,6 +23028,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alllinear.com^
 ||alllotto.com^
 ||allmanchase.com^
+||allmart-ai.com^
 ||allmediadesk.com^
 ||allmindday.com^
 ||allmobexpo.com^
@@ -23114,11 +23167,13 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alp-aire.com^
 ||alp1.drimki.fr^
 ||alpacahizz.com^
+||alpacalotus.com^
 ||alpacamining.com^
 ||alpakafreunde.de^
 ||alpari.ru^
 ||alpbeat.com^
 ||alpen-leicht.de^
+||alpen-schlaf.com^
 ||alpen-vest.com^
 ||alpenfluss.at^
 ||alpenhoch.com^
@@ -23129,6 +23184,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alpenpellets.pro^
 ||alpenridge.top^
 ||alpenroute36.com^
+||alpenwertor.de^
 ||alpenwien.com^
 ||alpenwolken.de^
 ||alpha-bay.link^
@@ -23143,6 +23199,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alphadog.center^
 ||alphagamers.de^
 ||alphagodaddy.com^
+||alphairosgpt.net^
 ||alphaluxury.de^
 ||alphamuscle.is^
 ||alpharockone.com^
@@ -23183,6 +23240,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alsowhirl.com^
 ||alt-ad.mail.ru^
 ||alt-r.my.com^
+||alt-services.com^
 ||alt.cobweb.com^
 ||alt.net^
 ||alt1-3ps.amazon-adsystem.com^
@@ -23254,7 +23312,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||alvinegroup.com^
 ||alvoria.info^
 ||alwayzcars.com^
-||alwcussi.com^
 ||alwftuavtvty.com^
 ||alwingulla.com^
 ||alwix.com^
@@ -23357,7 +23414,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||amazy.ru^
 ||amb-whatsapp.com^
 ||ambaab.com^
-||ambazsfzo.com^
 ||ambeerskoo.com^
 ||ambelbet.com^
 ||ambercrow.com^
@@ -23428,7 +23484,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||amffrance.org^
 ||amftsawknf.com^
 ||amg-whatsapp.com^
-||amgaxxocn.com^
 ||amgdgt.com^
 ||amgdoor.com^
 ||amgrasso.com^
@@ -23521,6 +23576,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||amped.venice.ai^
 ||ampelino.at^
 ||amperse.info^
+||ampl.digital^
 ||amplearctic.com^
 ||amplepoet.com^
 ||amplifinder.biz^
@@ -23780,6 +23836,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics-api.belbet.by^
 ||analytics-api.belenka.ch^
 ||analytics-api.belenka.com^
+||analytics-api.belenka.cz^
 ||analytics-api.belenka.de^
 ||analytics-api.belenka.it^
 ||analytics-api.belenka.pl^
@@ -24243,6 +24300,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics-v6.tiktok.com.ttdns2.com^
 ||analytics-v6.tiktok.com^
 ||analytics-wcms.joins.net^
+||analytics-web-v7.mewwallet.dev^
+||analytics-web.mewwallet.dev^
 ||analytics-webhook.doximity.com^
 ||analytics-webhook.doximity.services^
 ||analytics-wpt.smhi.se^
@@ -24278,6 +24337,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.247sports.com^
 ||analytics.24afisha.by^
 ||analytics.26.ru^
+||analytics.2803media.fr^
 ||analytics.29.ru^
 ||analytics.2advanced.de^
 ||analytics.2et.net^
@@ -24344,6 +24404,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.abab.icu^
 ||analytics.abcreche.com^
 ||analytics.abeasy.de^
+||analytics.abellio.de^
 ||analytics.ableton.com^
 ||analytics.abliteration.org^
 ||analytics.abt-sportsline.de^
@@ -24541,6 +24602,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.amateurfetishist.com^
 ||analytics.amazing-media.com^
 ||analytics.amazingenarah.com^
+||analytics.amazon.com^
+||analytics.amazon.dev^
 ||analytics.ameli.fr^
 ||analytics.americanfunds.com^
 ||analytics.amica.com^
@@ -24677,6 +24740,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.aral.de^
 ||analytics.arapy.ia.br^
 ||analytics.arcadian.hr^
+||analytics.arcanasoft.net^
 ||analytics.arcano.site^
 ||analytics.arcdata.com.au^
 ||analytics.architectum.com^
@@ -24719,6 +24783,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.asml.com^
 ||analytics.assessoriasublime.com.br^
 ||analytics.assortedscans.com^
+||analytics.asta.rwth-aachen.de^
 ||analytics.astian.org^
 ||analytics.astons.com^
 ||analytics.astralcoach.com^
@@ -24915,6 +24980,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.bierothek.de^
 ||analytics.biezen.nl^
 ||analytics.bigads.co^
+||analytics.bigdata.com^
 ||analytics.bigdata.samsung.com^
 ||analytics.bigfishgames.com^
 ||analytics.biggorilla.app^
@@ -25049,6 +25115,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.brkshr.com^
 ||analytics.brokula.hr^
 ||analytics.brother.be^
+||analytics.brother.bg^
 ||analytics.brother.co.uk^
 ||analytics.brother.de^
 ||analytics.brother.dk^
@@ -25122,6 +25189,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.caa.gov.ir^
 ||analytics.cabralportoimoveis.com.br^
 ||analytics.cac-comedy.de^
+||analytics.cacttus.cl^
 ||analytics.cadillac.com^
 ||analytics.cahoot.com^
 ||analytics.cajnisvet.shop^
@@ -25197,6 +25265,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.cateater.com^
 ||analytics.cathost.com.ua^
 ||analytics.catstevens.com^
+||analytics.cavarsa.app^
 ||analytics.ccned.nl^
 ||analytics.ccs.mcafee.com^
 ||analytics.cctclecurityapp.com^
@@ -25216,6 +25285,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.cerignola.net^
 ||analytics.cert.pl^
 ||analytics.certifriedit.com^
+||analytics.cetteup.com^
 ||analytics.ceu.com^
 ||analytics.cg-in.de^
 ||analytics.cgiltreviso.it^
@@ -25381,8 +25451,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.com^
 ||analytics.combatefreestyle.com^
 ||analytics.comedycafeberlin.com^
+||analytics.comicaso.pro^
 ||analytics.communitiesgroup.com^
 ||analytics.communitysupported.net^
+||analytics.companion.free^
 ||analytics.compass.at^
 ||analytics.compat.io^
 ||analytics.competitoor.com^
@@ -25614,6 +25686,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.dev.usercentrics.com^
 ||analytics.devart.com^
 ||analytics.devattendant.de^
+||analytics.devcleaner.app^
 ||analytics.devdome.com^
 ||analytics.developer.riotgames.com^
 ||analytics.devidee.cloud^
@@ -25652,6 +25725,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.digital.grilld.com.au^
 ||analytics.digitalbrainapps.com^
 ||analytics.digitalbuero.cloud^
+||analytics.digitalcombatsimulator.com^
 ||analytics.digitaldudes.nl^
 ||analytics.digitaleyes.ai^
 ||analytics.digitalpfizer.com^
@@ -25695,6 +25769,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.dna.fi^
 ||analytics.dns-shop.kz^
 ||analytics.dns-shop.ru^
+||analytics.dnscale.eu^
 ||analytics.dnsfest.com^
 ||analytics.do.cloudwalker.tv^
 ||analytics.dobremedia.sk^
@@ -26100,6 +26175,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.fiat500126.com^
 ||analytics.fibwatch.com^
 ||analytics.fichtelapp.de^
+||analytics.fiddl.art^
 ||analytics.fidelimax.com.br^
 ||analytics.fiege.com^
 ||analytics.fieldbee.com^
@@ -26260,6 +26336,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.frs.world^
 ||analytics.fruits.co^
 ||analytics.frvm.utn.edu.ar^
+||analytics.fryd.dev^
 ||analytics.fs-bdash.com^
 ||analytics.fs-studios.com^
 ||analytics.fs-sys.de^
@@ -26555,6 +26632,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.health-ua.com^
 ||analytics.healtheintent.com^
 ||analytics.healthifyme.com^
+||analytics.healthproductsforyou.com^
 ||analytics.healthypethospital.me^
 ||analytics.heartlandmosaic.com^
 ||analytics.heartuk.org.uk^
@@ -26743,8 +26821,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.ilvo.be^
 ||analytics.imablo.com^
 ||analytics.imagearts.de^
+||analytics.imagetown.de^
 ||analytics.imagetoword.info^
 ||analytics.imirwin.com^
+||analytics.imivi.dev^
 ||analytics.immersivetranslate.com^
 ||analytics.immohuysman.be^
 ||analytics.immotecshop24.de^
@@ -26869,6 +26949,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.ispark.istanbul^
 ||analytics.ispartnersllc.com^
 ||analytics.iss.one^
+||analytics.istat.it^
 ||analytics.istats.click^
 ||analytics.it-dienstleistungen-lemke.de^
 ||analytics.itabus.it^
@@ -27220,6 +27301,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.lego.com^
 ||analytics.legu.one^
 ||analytics.lehner-versand.ch^
+||analytics.lehrer-in-mv.de^
 ||analytics.leinkredit.de^
 ||analytics.lekumo.jp^
 ||analytics.lemgo.de^
@@ -27233,6 +27315,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.lensmart.com.ua^
 ||analytics.lepetitmarseillais.com^
 ||analytics.leslibrairespresse.be^
+||analytics.lesoctetslibres.com^
 ||analytics.letsdeal.se^
 ||analytics.levante-emv.com^
 ||analytics.levent-deniz.de^
@@ -27253,6 +27336,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.libcyber.xyz^
 ||analytics.libertycr.com^
 ||analytics.libertymutual.com.edgekey.net^
+||analytics.libertypr.com^
 ||analytics.librarypass.com^
 ||analytics.lideralimoveis.com.br^
 ||analytics.liefer-fuchs.com^
@@ -27335,12 +27419,14 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.londontheatredirect.com^
 ||analytics.lonestar.co.nz^
 ||analytics.lookingforways.com^
+||analytics.lookintomaxi.com^
 ||analytics.loop-cloud.de^
 ||analytics.loreframe.app^
 ||analytics.lorenz-snacks.com^
 ||analytics.loseq.fr^
 ||analytics.loskot.at^
 ||analytics.lostconnection.de^
+||analytics.louge.fr^
 ||analytics.lovemoney.com^
 ||analytics.loyalty-program.motorola-cloud.com^
 ||analytics.lpp-group.com^
@@ -27372,6 +27458,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.lutte-ouvriere.org^
 ||analytics.luxexonline.com^
 ||analytics.ly200.com^
+||analytics.lynet.com^
 ||analytics.lyramusic.app^
 ||analytics.lysa.se^
 ||analytics.lyskilderdirekte.dk^
@@ -27682,6 +27769,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.mokuleleairlines.com^
 ||analytics.moll-automobile.de^
 ||analytics.momentum-institut.at^
+||analytics.monbillet.ch^
 ||analytics.mondaymorning.dev^
 ||analytics.mondial-enterprise.com^
 ||analytics.mondotv.jp^
@@ -27930,6 +28018,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.noack.digital^
 ||analytics.nobilzampa.com^
 ||analytics.noblechairs.de^
+||analytics.noblechairs.eu^
 ||analytics.nodecraft.com^
 ||analytics.noerdliches-fichtelgebirge.de^
 ||analytics.noffice.conceptboard.com^
@@ -28200,6 +28289,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.pauta.ai^
 ||analytics.pavegrowth.co^
 ||analytics.pay-s.ru^
+||analytics.paysera.com^
 ||analytics.paytourist.com^
 ||analytics.pb.io^
 ||analytics.pbagentur.at^
@@ -28261,6 +28351,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.phplist.com^
 ||analytics.physgun.com^
 ||analytics.pi-apps.io^
+||analytics.pick-flow.com^
 ||analytics.picknrg.com^
 ||analytics.picomarketing.nl^
 ||analytics.picsart.com.cdn.cloudflare.net^
@@ -28332,6 +28423,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.placer.ai^
 ||analytics.plaid.com^
 ||analytics.plainproxies.com^
+||analytics.plameco.de^
 ||analytics.planetmutlu.com^
 ||analytics.planetradio.de^
 ||analytics.planhat.com^
@@ -28394,6 +28486,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.poollogicsd.com^
 ||analytics.poolshool.com^
 ||analytics.poorvika.com^
+||analytics.pop.coop^
 ||analytics.pop2watch.com^
 ||analytics.popov.link^
 ||analytics.poppo.tv^
@@ -28595,6 +28688,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.ratioform.it^
 ||analytics.ratzownal.de^
 ||analytics.raumduftshop.de^
+||analytics.raumgleiter.com^
 ||analytics.ravanallc.com^
 ||analytics.ravelz.com^
 ||analytics.ravetel.com^
@@ -28758,6 +28852,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.roma.de^
 ||analytics.romiltec.it^
 ||analytics.romkey.com^
+||analytics.romstime.com^
 ||analytics.roohsaafabd.com^
 ||analytics.rosenthal.de^
 ||analytics.rossetto.it^
@@ -28794,6 +28889,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.runeforge.dev^
 ||analytics.runlap.de^
 ||analytics.runpath.com^
+||analytics.runruneando.com^
 ||analytics.runsignup.com^
 ||analytics.rupes-nigra.com^
 ||analytics.ruport.com.ua^
@@ -28806,15 +28902,18 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.ryanwiecz.co.uk^
 ||analytics.rz.uni-osnabrueck.de^
 ||analytics.s3.amazonaws.com^
+||analytics.saarfluencer.de^
 ||analytics.saasykit.com^
 ||analytics.saatvesaat.com.tr^
 ||analytics.sabah.com.tr^
+||analytics.saevah.shop^
 ||analytics.safeandnotsorry.com^
 ||analytics.safety-health-expo.co.uk^
 ||analytics.safetychampionapp.com^
 ||analytics.saffirerestaurant.com^
 ||analytics.sagaform.com^
 ||analytics.sagepub.com^
+||analytics.sahibinden.com^
 ||analytics.saikosoft.jp^
 ||analytics.saketos.nl^
 ||analytics.sakis.tech^
@@ -28829,6 +28928,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.samiralibabic.com^
 ||analytics.samnytt.se^
 ||analytics.samsungedo.com^
+||analytics.samsungknowledge.com^
 ||analytics.samsungknox.com^
 ||analytics.sandbox.avsox.asia^
 ||analytics.sandstorm.game^
@@ -28868,6 +28968,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.schubert.group^
 ||analytics.schwarzgrueneszebra.de^
 ||analytics.schwedes.tech^
+||analytics.scielo.org^
 ||analytics.scienceleadr.com^
 ||analytics.scm-verlagsgruppe.de^
 ||analytics.sconto.de^
@@ -29087,6 +29188,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.sleepy-cloud.ae^
 ||analytics.slidesai.io^
 ||analytics.slido.com^
+||analytics.slimhosting.de^
 ||analytics.sling.com^
 ||analytics.slowverve.net^
 ||analytics.smagpamadrid.com^
@@ -29128,6 +29230,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.softlutions.nl^
 ||analytics.softsynk.com^
 ||analytics.softwareallianz.de^
+||analytics.sogudo.com^
 ||analytics.sohatv.vn^
 ||analytics.solanamobile.com^
 ||analytics.solarkataster.nrw.de^
@@ -29352,6 +29455,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.synology.com^
 ||analytics.synopsisapp.com^
 ||analytics.syntropy.it^
+||analytics.sysmike.net^
 ||analytics.system-stats.com^
 ||analytics.systemgroup.net^
 ||analytics.szlz.de^
@@ -29458,6 +29562,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.tga.net.tr^
 ||analytics.thaigov.go.th^
 ||analytics.thami.dev^
+||analytics.tharrosnet.it^
 ||analytics.thatgolfapp.com^
 ||analytics.theblockbrain.ai^
 ||analytics.theclassic.games^
@@ -29475,6 +29580,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.theleagueof.co^
 ||analytics.thelist.app^
 ||analytics.themarketiq.com^
+||analytics.themiracle.io^
 ||analytics.themultiverse.school^
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
@@ -29503,6 +29609,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.thomasnet.io^
 ||analytics.thomasset.co^
 ||analytics.thomsonreuters.com^
+||analytics.thonhotels.com^
 ||analytics.thorcdn.com^
 ||analytics.thoughtfarmer.com^
 ||analytics.threadloop.app^
@@ -29626,6 +29733,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.torreseo.com^
 ||analytics.torrid.com^
 ||analytics.toryburch.com^
+||analytics.totalenergies.be^
 ||analytics.totalenergies.fr^
 ||analytics.totalprosports.com^
 ||analytics.totvs.com.br^
@@ -29713,6 +29821,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.turbotheorie.nl^
 ||analytics.turk.pro^
 ||analytics.turksat.com.tr^
+||analytics.turktelekom.com.tr^
 ||analytics.turnertv.com^
 ||analytics.turtlebeach.com^
 ||analytics.tuskun.cloud^
@@ -29814,6 +29923,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.usips.org^
 ||analytics.usmagazine.com^
 ||analytics.usmoneyreserve.com^
+||analytics.uspoloassn.com^
 ||analytics.uspsa.io^
 ||analytics.ust.com^
 ||analytics.ustastreetfood.com^
@@ -29848,6 +29958,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.vansprint.de^
 ||analytics.vanubis.at^
 ||analytics.vardagligt.com^
+||analytics.variantnow.com^
 ||analytics.variotherm.com^
 ||analytics.varis.social^
 ||analytics.vaterland.li^
@@ -30014,6 +30125,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.wathling.net^
 ||analytics.wavebox.io^
 ||analytics.wavelz.com^
+||analytics.wawa.lt^
 ||analytics.wayke.se^
 ||analytics.wayland.app^
 ||analytics.waziz.xyz^
@@ -30074,6 +30186,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.weroad.de^
 ||analytics.weroad.it^
 ||analytics.werobotics.org^
+||analytics.werra-meissner-kreis.de^
 ||analytics.westcomfort.pl^
 ||analytics.wesudcloud.fr^
 ||analytics.wevolt.energy^
@@ -30086,6 +30199,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.whostheboss.co.uk^
 ||analytics.whotargets.me^
 ||analytics.whymedia.com^
+||analytics.wibs.wien^
 ||analytics.wicaksono.dev^
 ||analytics.wideview.tools^
 ||analytics.wiedenroth.tech^
@@ -30123,6 +30237,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.wiki-last-asylum.com^
 ||analytics.wikibot.pro^
 ||analytics.wikicasa.it^
+||analytics.wikimedia.org^
 ||analytics.wikitide.net^
 ||analytics.wikosoft.de^
 ||analytics.wildix.com^
@@ -30193,6 +30308,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.wz-it.com^
 ||analytics.x-rator.cloud^
 ||analytics.x.com^
+||analytics.xaos.it^
 ||analytics.xavia.es^
 ||analytics.xbdgame.com^
 ||analytics.xbondage.porn^
@@ -30215,6 +30331,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.xn--72czaud0ezbn4b8de.com^
 ||analytics.xonotic.org^
 ||analytics.xoomenergy.com^
+||analytics.xpress.site^
 ||analytics.xranks.com^
 ||analytics.xrcosmic.xyz^
 ||analytics.xrealm.cloud^
@@ -30224,6 +30341,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.xwm.app^
 ||analytics.xxcontent.cfd^
 ||analytics.xxxl.gr^
+||analytics.yagot.me^
 ||analytics.yahoo.com^
 ||analytics.yamibuy.net^
 ||analytics.yandex.com.tr^
@@ -30260,7 +30378,9 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.youronlinechoices.com^
 ||analytics.yourshades.com^
 ||analytics.youtube.com^
+||analytics.yoxo.ro^
 ||analytics.yten.com^
+||analytics.ytica.com^
 ||analytics.yugen.to^
 ||analytics.yummylittlebelly.com^
 ||analytics.yusef.es^
@@ -30293,6 +30413,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.zeros.im^
 ||analytics.zerto.com^
 ||analytics.zervice.io^
+||analytics.zetacast.de^
 ||analytics.zetsol.co^
 ||analytics.zevoinsect.com^
 ||analytics.zevvle.com^
@@ -30306,6 +30427,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||analytics.zim.vn^
 ||analytics.zinoarea.fr^
 ||analytics.zipify.com^
+||analytics.ziraatbank.com.tr^
 ||analytics.zive.cz^
 ||analytics.zkm.de^
 ||analytics.zlato.ua^
@@ -30618,6 +30740,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||angebote-kauf.de^
 ||angebotewein.com^
 ||angege.com^
+||angel-clickstream-analytics.angelbee.in^
 ||angel-talk.jp^
 ||angelalittle.net^
 ||angelbetting.com^
@@ -31037,7 +31160,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||apcdp.apnews.com^
 ||apcsus.shop^
 ||apdfmhp.cn^
-||apdowdap.com^
 ||apdquxbsis.com^
 ||ape.apeitnow.com^
 ||ape.mfj.se^
@@ -31057,6 +31179,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||apetite.index.hr^
 ||apex-ad.com^
 ||apex-cms.com^
+||apex-justice.com^
 ||apexbit.top^
 ||apexcucumber.com^
 ||apexdealeros.com^
@@ -31069,7 +31192,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||apf-wps.com.cn^
 ||apfobmfr.cn^
 ||apglinks.net^
-||apgpaphuksz.com^
 ||apgxj.xyz^
 ||aphacicfable.com^
 ||apharmacie.com^
@@ -32305,7 +32427,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aqfyrgb.in^
 ||aqhz.xyz^
 ||aqilk66444a.xyz^
-||aqiongxlma.com^
 ||aqjw.top^
 ||aqkdmicibfav.in^
 ||aqkkoalfpz.com^
@@ -32313,7 +32434,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||aqlwabon.in^
 ||aqmira.shop^
 ||aqml.org^
-||aqnfiranqzas.com^
 ||aqngziguqo.in^
 ||aqnjhyohrfu.com^
 ||aqnyjcywvcs.com^
@@ -32465,7 +32585,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ardsvictinia.com^
 ||arduino.org^
 ||arduinodroid.com^
-||ardvcelitb.com^
 ||ardvion.com^
 ||area51.to^
 ||areabet.net^
@@ -32579,9 +32698,9 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||armanet.us^
 ||armconsul.ru^
 ||armedtidying.com^
+||armerbushie.com^
 ||armine.live^
 ||arminius.io^
-||armkiqgmaram.com^
 ||armnhidhuwr.com^
 ||armodafinil.cz^
 ||armodamunchen.de^
@@ -32894,7 +33013,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ashamed-area.com^
 ||ashasom.org^
 ||ashasvsucoce.com^
-||ashazkawg.com^
 ||ashbergh.com^
 ||ashcdn.com^
 ||ashenaletube.com^
@@ -33286,6 +33404,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ateam-ad.jp^
 ||atech.ne.jp^
 ||atedra.com^
+||atefiafr.fr^
+||atefias-fr.fr^
 ||atefias.fr^
 ||atelicartal.cyou^
 ||atelier-hp.jp^
@@ -33314,6 +33434,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||athansie.com^
 ||atheegrun.net^
 ||atheismcard.com^
+||athelmaney.com^
 ||athena.toto.nl^
 ||athene-shop.com^
 ||athens.toto.nl^
@@ -33366,7 +33487,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||atmovs.com^
 ||atmsat.com^
 ||atmtd.com^
-||atnhkodwem.com^
 ||atnnf.xyz^
 ||atnpx.com^
 ||ato.atozzen.com^
@@ -33383,9 +33503,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||atomex.net^
 ||atomfinance.net^
 ||atomicodemo.com^
+||atomicpaving.com^
 ||atomicqueen.com^
 ||atomictrivia.ru^
 ||atomo.sq.com.ua^
+||atomsk.info^
 ||atomslip.com^
 ||aton-invest.com^
 ||atonato.de^
@@ -33495,7 +33617,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||atycs.atron.bg^
 ||atycs.equans.ch^
 ||atype.jp^
-||atzahpfujb.com^
 ||atzonebd.com^
 ||atzzrq.tbs.co.jp^
 ||au-meds.com^
@@ -34127,7 +34248,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||awumnf.com^
 ||awvcakpzio.in^
 ||awwifweknb.com^
-||awwqatjip.com^
 ||awyeldtpesn.com^
 ||awyyzx.com^
 ||awzbijw.com^
@@ -34173,7 +34293,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||axhkkigc.com^
 ||axhonvtr.in^
 ||axhoqjpimjfo.com^
-||axhowsbpupab.com^
 ||axia-hakusan.com^
 ||axifile.com^
 ||axilix.net^
@@ -34383,7 +34502,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||azera-s014.com^
 ||azfancy.com^
 ||azfront.com^
-||azgpciab.com^
 ||azgsulgfakux.com^
 ||azgtpujuls.com^
 ||azgvupab.in^
@@ -34979,6 +35097,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||balintimates.com^
 ||balkcarious.com^
 ||balkgymnast.cyou^
+||balkholme.com^
 ||balkliving.com^
 ||balkonfix.com^
 ||balkonsonne.com^
@@ -35279,9 +35398,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||barrons.com/cookies/pixel.gif
 ||barrycode.com^
 ||barsomwryly.shop^
+||barstool59.com^
 ||bartcons.com^
 ||bartek.baby^
 ||bartekbaby.shop^
+||barteks.shop^
 ||bartender.cc^
 ||barter-media.ru^
 ||bartonfolk.com^
@@ -35950,6 +36071,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||beacon.srta.spectrum.com^
 ||beacon.starii-rover.com^
 ||beacon.suggest-me.com^
+||beacon.suggest-online.com^
 ||beacon.suggestions2you.com^
 ||beacon.suggestmeonline.com^
 ||beacon.take2games.com^
@@ -36338,7 +36460,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bemobtrk.com^
 ||bemodern.de^
 ||bemro.com^
-||bemuckmano.cfd^
 ||bemygalaxy.com^
 ||bemyze.com^
 ||ben.crxmouse.com^
@@ -37199,6 +37320,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||biggerbling.com^
 ||biggerluck.com^
 ||biggingdevel.com^
+||biggvanity.cfd^
 ||bighaj.de^
 ||bighomelife.com^
 ||bighop.com^
@@ -37393,6 +37515,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bingo-metrics.bingo.elitescastle.com^
 ||bingohall.ag^
 ||bingoroll3.net^
+||bingosingles.com^
 ||binibeetfly.com^
 ||binioujipper.com^
 ||binlayer.com^
@@ -37483,6 +37606,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||birdmedia.com^
 ||birdpaper.cn^
 ||birdpaper.com.cn^
+||birdpkt.cloud^
 ||birdpriceall.com^
 ||birdriver.org^
 ||birdseyewings.co^
@@ -37588,6 +37712,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bitgetzx.com^
 ||bitgpt.org^
 ||bitgrokapp.com^
+||bitgrokit.org^
 ||bither.one^
 ||bithow.com^
 ||biticodes.com^
@@ -37629,6 +37754,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bitrem.ru^
 ||bits-online.info^
 ||bitscircle.com^
+||bitsfagald.com^
 ||bitsoft360.com^
 ||bitsoft360.io^
 ||bitsoft360.net^
@@ -37972,6 +38098,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||blitz-analytics-batch-server.blitz.gg^
 ||blitz-handel.de^
 ||blitzgeld.at^
+||blitzripio.store^
 ||blizzak.de^
 ||blizzdata.site^
 ||blj-whatsapp.com^
@@ -38202,6 +38329,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bluestreak.com^
 ||bluesygayal.cfd^
 ||bluetoad.com^
+||bluetree-ai.com^
 ||bluetscomp.store^
 ||bluewhaleweb.com^
 ||bluewombat.dk^
@@ -38262,6 +38390,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bm6c3pthv.com^
 ||bma-whatsapp.com^
 ||bmadss.com^
+||bmaholzhandel.at^
 ||bmb-whatsapp.com^
 ||bmbgreen.com^
 ||bmbomuggi.store^
@@ -38354,7 +38483,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bmwforum.co^
 ||bmx-whatsapp.com^
 ||bmy-whatsapp.com^
-||bmyogxbku.com^
 ||bmyrihf.icu^
 ||bmz-whatsapp.com^
 ||bmzuyj.nifty.com^
@@ -38650,6 +38778,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bomain.ru^
 ||bombardina.de^
 ||bombardina.pl^
+||bombeaggue.store^
 ||bombmanul.com^
 ||bombora.com^
 ||bombscore.com^
@@ -38768,6 +38897,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bookshelf07.com^
 ||bookspot.shop^
 ||booktakeaway.com^
+||booktiturel.com^
 ||boolff.com^
 ||boom-bb.com^
 ||boom.ro^
@@ -38805,6 +38935,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||boostog.net^
 ||boostquery.com^
 ||boostroid.com^
+||boot-lane.shop^
 ||bootcdn.cn^
 ||bootcdn.net^
 ||bootcss.com^
@@ -39287,7 +39418,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||breezybright.com^
 ||breezycupons.com^
 ||breezygrove.com^
-||brefadmuxo.com^
 ||bregato.com^
 ||brehn.de^
 ||breirtbart.com^
@@ -39312,6 +39442,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||brennholzs.com^
 ||brennkiste.de^
 ||brenquto.shop^
+||brentjd.com^
 ||brentor.pro^
 ||brenuingerde.com^
 ||brenzako.shop^
@@ -39327,6 +39458,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||brevillesale.com^
 ||brevio.pl^
 ||brevissnod.com^
+||brevundero.net^
 ||brewheaven.shop^
 ||brewingeasel.com^
 ||brewthing.com^
@@ -39596,6 +39728,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||brundaki.shop^
 ||brunecky.com^
 ||bruneko.shop^
+||brunevo.net^
 ||brunoberg.com^
 ||brunocasinoo.fr^
 ||brunosboxers.de^
@@ -39727,6 +39860,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||btbeacdhrdt.com^
 ||btbuckets.com^
 ||btc500lurot.com^
+||btc775.com^
 ||btcberventia.org^
 ||btcclicks.com^
 ||btcduke.com^
@@ -40116,6 +40250,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||burn5tilt.com^
 ||burnbubble.com^
 ||burnetsasgmt.com^
+||burnhaven.net^
 ||burniecrepes.com^
 ||burningclock.com^
 ||burnsneedy.com^
@@ -40171,6 +40306,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bustlingbook.com^
 ||bustmerchant.com^
 ||bustmydebt.co^
+||bustudioz.com^
 ||bustymeets.com^
 ||busy-host.pro^
 ||busy-man.com^
@@ -40351,6 +40487,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bweulbvgrixs.com^
 ||bwf-whatsapp.com^
 ||bwg-whatsapp.com^
+||bwgabpdgm.com^
 ||bwgtptgihi.com^
 ||bwh-whatsapp.com^
 ||bwi-whatsapp.com^
@@ -40411,6 +40548,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||bxn-whatsapp.com^
 ||bxo-whatsapp.com^
 ||bxp-whatsapp.com^
+||bxqlk.xyz^
 ||bxs.bilandgo.com^
 ||bxsnews.com^
 ||bxsov.com^
@@ -41161,6 +41299,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||calarm.info^
 ||calbenifits.com^
 ||calcpol.com^
+||calculator.analytics.brusentsov.dev^
 ||calcutor.net^
 ||calderovian.com^
 ||caldersholl.net^
@@ -41655,7 +41794,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||carneyfelons.com^
 ||carni-shop.com^
 ||carnoxshop.com^
-||carnuconp.com^
 ||caroda.io^
 ||carolinebeck.org^
 ||carolroth.com^
@@ -41801,6 +41939,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cashtube.ru^
 ||casian.club^
 ||casinado-fr.fr^
+||casinia1.fr^
 ||casiniajouer.fr^
 ||casino-770fr.fr^
 ||casino-amunra.fr^
@@ -42177,6 +42316,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ccc-x.jd.com^
 ||ccc.sys.miui.com^
 ||ccc9c93083.com^
+||cccchic.shop^
+||cccchics.shop^
 ||cccedgy-pl.shop^
 ||cccedgy.shop^
 ||cccfashion.shop^
@@ -42341,6 +42482,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cdn-gw-dv.io^
 ||cdn-gw-dv.net^
 ||cdn-gw-dv.vip^
+||cdn-heymint.vip^
 ||cdn-image.com^
 ||cdn-img.ru^
 ||cdn-kuailian.com^
@@ -42937,7 +43079,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||certify.nasm.org^
 ||certireceta.com^
 ||certona.net^
-||certouips.click^
 ||certouips.help^
 ||certumgroup.com^
 ||certxpert.com^
@@ -43096,6 +43237,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cha-nce.net^
 ||chabadokor.com^
 ||chabeihu.hl.cn^
+||chaberserow.qpon^
 ||chabok.io^
 ||chacos.at^
 ||chacospolska.pl^
@@ -43104,6 +43246,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||chaglihysty.pro^
 ||chaibsoacmo.com^
 ||chailtarie.com^
+||chain-bnb.com^
 ||chainads.io^
 ||chaindisc.com^
 ||chaindoorman.com^
@@ -43404,6 +43547,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||chiamfxz.com^
 ||chibi.sh^
 ||chic-bay.com^
+||chic-heel.shop^
 ||chic9usia.com^
 ||chicago888.com^
 ||chicandgo.com^
@@ -43730,7 +43874,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cigvanju.com^
 ||cihaltonly.com^
 ||cihc.cn^
-||cihkadnhobmo.com^
 ||ciiai.com^
 ||ciibigpicture.in^
 ||ciimg.com^
@@ -44023,6 +44166,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||clanlottery.com^
 ||clanmute.com^
 ||clanpages.org^
+||clanrefin.com^
 ||clappegiust.cfd^
 ||clara-zurich.com^
 ||claraberlin.com^
@@ -45198,6 +45342,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cogocs.com^
 ||cogrrjdblji.net^
 ||coguan.com^
+||cogwayskerb.com^
 ||cogxnkfudgi.com^
 ||cohesionapps.com^
 ||cohosted.xyz^
@@ -46312,6 +46457,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||couchcoaster.jp^
 ||couchsurf.life^
 ||coudawaisto.net^
+||couldprecyst.com^
 ||couledochemy.net^
 ||coull.com^
 ||coulterferae.cfd^
@@ -46396,6 +46542,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||countertrck.com^
 ||counthis.com^
 ||counti.de^
+||countingra.store^
 ||countino.de^
 ||countit.ch^
 ||countly.1vpn.app^
@@ -46460,6 +46607,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||covidtracking.com^
 ||covivado.club^
 ||covshop.de^
+||covua.info^
 ||cowardlyapex.com^
 ||cowbelltime.com^
 ||cowboyskid.com^
@@ -46486,6 +46634,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cozeymaison.de^
 ||cozibaneco.com^
 ||cozieswarned.com^
+||cozy-dwell.shop^
 ||cozycorex.com^
 ||cozydni.com^
 ||cozydusk.com^
@@ -47137,6 +47286,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||crystalslot.com^
 ||cryto.xyz^
 ||cryweb.github.io^
+||cryxr1.net^
 ||cryy.vip^
 ||cryzor.com^
 ||crz.pecado.ro^
@@ -47441,7 +47591,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||cuckooretire.com^
 ||cuckoosad.com^
 ||cuckootomb.com^
-||cucomxmcud.com^
 ||cudaojia.com^
 ||cuddle-kid.shop^
 ||cuddly-loss.com^
@@ -47490,7 +47639,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||culturaltracking.ru^
 ||culturedhead.pro^
 ||culxawxafsw.com^
-||culziqbin.com^
 ||cum.fr^
 ||cumbosamkin.info^
 ||cumefortivo.com^
@@ -47618,6 +47766,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||customer.io^
 ||customerlabs.co^
 ||customers.xray-superpixel.com^
+||customindia.shop^
 ||customsails.com^
 ||customurink.com^
 ||customzombie.com^
@@ -48847,6 +48996,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||darkweblinks.net^
 ||darkweblive.net^
 ||darkweburls.com^
+||darlton.net^
 ||darm.cn^
 ||darmowekino.pl^
 ||darnedsweaty.cfd^
@@ -50045,6 +50195,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dealcurrent.com^
 ||dealdnapro.com^
 ||dealdotcom.com^
+||dealerienai.net^
 ||dealflair.com^
 ||dealflowlabx.com^
 ||dealira.com^
@@ -50072,7 +50223,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||deanowens.com^
 ||dear-soil.com^
 ||deardrill.com^
-||dearestfunny.pro^
 ||dearsfibered.com^
 ||deart-13.ru^
 ||deathcoho.com^
@@ -50131,7 +50281,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||decisionmark.com^
 ||decisionnews.com^
 ||decisionw.com^
-||decisive-gas.pro^
 ||decisivebase.com^
 ||deckcalmn.com^
 ||deckcraft.run^
@@ -50499,6 +50648,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||densanox.pl^
 ||densefoot.com^
 ||densenbl.com^
+||denston.net^
 ||dentalfix.shop^
 ||dentaltourist.ba^
 ||dentilnitter.com^
@@ -50634,6 +50784,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||destrellson.com^
 ||destyy.com^
 ||desxerneasan.com^
+||desyatushka.com^
 ||deszczowka24.pl^
 ||detail-analytics.subtlesignals-studio.workers.dev^
 ||detailroi.com^
@@ -51094,6 +51245,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||diceknob.com^
 ||dicemoments.com^
 ||dicenoi.com^
+||dicerflysc.store^
 ||dicha-bike.com^
 ||dicki.net^
 ||diclotrans.com^
@@ -51133,6 +51285,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||diem-vcbank.com^
 ||diemme.biz^
 ||dienai.ru^
+||diennganhung.com^
 ||diensten.org^
 ||diesel-outlet.de^
 ||diesel.co.at^
@@ -51541,6 +51694,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||discapproach.com^
 ||discards55.com^
 ||discasfiss.store^
+||discaviere.store^
 ||discedeiry.qpon^
 ||discepttaked.com^
 ||disciplineh.com^
@@ -51551,6 +51705,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||discodude.com^
 ||discomesoc.store^
 ||discopond.com^
+||discopropo.store^
 ||discord.app.br^
 ||discord.ru^
 ||discorg.gg^
@@ -51585,6 +51740,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dishround.com^
 ||dishwasher46.com^
 ||disildised.store^
+||disiopanps.store^
 ||disk-redial.com^
 ||diskaa.com^
 ||diskclean.cn^
@@ -52159,6 +52315,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dobuku.com^
 ||dobunny.com^
 ||dobytowsy.com^
+||docamenal.com^
 ||doccd.xyz^
 ||docebasaas.com^
 ||docerad.wps.cn^
@@ -52194,6 +52351,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||documentarp.com^
 ||documentsite.net^
 ||docusine.com^
+||docviewer.cfd^
 ||doda24pl.eu.cc^
 ||dodgebugs.com^
 ||dodgers.co.jp^
@@ -52468,6 +52626,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||doomedstore.de^
 ||doomhedge.com^
 ||doomna.com^
+||doomsarchaic.com^
 ||dooods.pro^
 ||doorbright.shop^
 ||doorknockset.com^
@@ -52547,7 +52706,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dospiliste.net^
 ||dosre12.xyz^
 ||dossingxina.com^
-||dossridged.shop^
 ||dosta24ppl.eu.cc^
 ||dostavka.ru^
 ||dostep.quest^
@@ -53059,7 +53217,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||drugsline.org^
 ||druic.mytxt.cc^
 ||druis.mytxt.cc^
-||drujapat.com^
 ||drumcash.com^
 ||drumcovere.com^
 ||drumfills.com^
@@ -53643,6 +53800,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||du1.bbdj.com^
 ||du3d.com^
 ||duale.com.au^
+||dualforge.fun^
 ||dualmarket.info^
 ||dualneatly.com^
 ||dualping.com^
@@ -53772,6 +53930,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||duomeng.net^
 ||duomeng.org^
 ||duomilm.com^
+||duongkimvinh.com^
 ||duonium.com^
 ||duoroumao.cn^
 ||duote.com^
@@ -53978,7 +54137,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dwyeeunm.com^
 ||dwyeuy.com^
 ||dwyngjb.icu^
-||dwyofqsfugu.com^
 ||dwzhyllh.com^
 ||dx-fu.com^
 ||dx-tv.com^
@@ -54096,6 +54254,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||dysjtdw.in^
 ||dyson-de.de^
 ||dyson-store.de^
+||dytt8.org^
 ||dytuj6zs26.com^
 ||dyupbydns.com^
 ||dywjcc.top^
@@ -54994,6 +55153,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eatlocal.info^
 ||eatmycookies.mockingbirdcinema.com^
 ||eatondesigns.com^
+||eatpeppt.com^
 ||eatskorea.com^
 ||eauspauld.qpon^
 ||eavmb.bugmd.com^
@@ -55701,6 +55861,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||efg.zle.com^
 ||efgh.5lu.com^
 ||efglbp.baur.de^
+||efgqfgqdfg.com^
 ||efh2rahxxq.com^
 ||efhfuh1.com^
 ||efikmuchly.qpon^
@@ -55763,6 +55924,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||egipsbvlgn.xyz^
 ||egisesillite.com^
 ||egistonemes.com^
+||egksxbmaehh.com^
 ||eglaitepo.net^
 ||eglawiresoo.net^
 ||eglnktnqnz.com^
@@ -55879,6 +56041,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eira-line.com^
 ||eirci.kafene.com^
 ||eirhwrompgct.com^
+||eiromnitech.com^
 ||eiroshop.lv^
 ||eisdog.shape.com^
 ||eiselefahrrad.de^
@@ -55965,6 +56128,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ekubltrrtm.com^
 ||ekusakura.shop^
 ||ekzsale.shop^
+||el-salazar.com^
 ||el.quizlet.com^
 ||el.siglo.mx^
 ||el2m3qr7v.com^
@@ -56149,6 +56313,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||elitetoplist.com^
 ||elitetsv.com^
 ||elitics.com^
+||elityu.com^
 ||eliwitensirg.net^
 ||elixads.com^
 ||elixarco.com^
@@ -56660,6 +56825,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||en-leger.org^
 ||en-mu-su-bi.com^
 ||en-sogou.com^
+||en-sparrow.com^
 ||en-trezor.io^
 ||en-wps.hl.cn^
 ||en.rottne.com^
@@ -56685,6 +56851,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||encirimpar.store^
 ||encountly.com^
 ||encurtador.dev^
+||encycled.com^
 ||encystkokil.com^
 ||endconfine.com^
 ||endedstrung.com^
@@ -56846,6 +57013,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||enhencer.com^
 ||eniam.com^
 ||eniedu.com^
+||enigmaedge.net^
 ||enigmaprint.com^
 ||eniont.xyz^
 ||enisaflower.com^
@@ -56950,6 +57118,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||envision75.com^
 ||envisiongear.com^
 ||envisu-gmbh.com^
+||envivao158.sbs^
+||envoxapp.com^
 ||envy.nu^
 ||enwawvap.com^
 ||enwucnw.top^
@@ -57238,6 +57408,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eronplus.pl^
 ||eropilot.com^
 ||erorblackday.xyz^
+||eroshipshop.com^
 ||erosponsorki.pl^
 ||erotag.com^
 ||erotenjou.com^
@@ -57332,6 +57503,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||es.oddo-bhf.com^
 ||es.ylilauta.org^
 ||esa2j46dwf.com^
+||esaceidrat.store^
 ||esadli.com^
 ||esaidees.com^
 ||esales.ycc.sa^
@@ -57426,6 +57598,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||essareps.com^
 ||essaro.de^
 ||essartchello.com^
+||essaya.org^
 ||essayads.com^
 ||essaycoupons.com^
 ||essaygiants.com^
@@ -57567,6 +57740,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eth-pocket.eu^
 ||eth.llamarpc.com^
 ||ethan.wang^
+||ethanolofen.com^
 ||ethanslayton.com^
 ||ethanxiu-hk.com^
 ||ethecal.com^
@@ -57574,7 +57748,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ether-invest.com^
 ||ethereumads.com^
 ||ethfw0370q.com^
-||ethical-page.pro^
 ||ethicalads.io^
 ||ethicaldigit.com^
 ||ethicel.com^
@@ -57669,6 +57842,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eu-pillstore.com^
 ||eu-segway.com^
 ||eu-sezane.com^
+||eu-sso.analytics-9276.sussybaka.store^
 ||eu-survey.com^
 ||eu.bagsvalley.cn^
 ||eu.cettire.com^
@@ -57757,6 +57931,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||euro-markt.at^
 ||euro-option.info^
 ||euro-pharm24.com^
+||euro-pill.com^
 ||euro-pr.eu^
 ||euro.lc^
 ||euro420buds.com^
@@ -57917,6 +58092,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||event.vgl.org^
 ||event.zhihu.com^
 ||eventadmit.ru^
+||eventdatum.net^
 ||eventdoorway.ru^
 ||eventeasyfree.ru^
 ||eventfairfree.ru^
@@ -57936,6 +58112,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||eventopen.ru^
 ||eventos.usj.es^
 ||eventportal0.ru^
+||events-analytics.apple.com^
 ||events-analytics.hotstar.com^
 ||events-games.com^
 ||events.1785.club^
@@ -58146,6 +58323,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ewfsef.com^
 ||ewhareey.com^
 ||ewige-seide.de^
+||ewigerbund.org^
 ||ewills.access.ly^
 ||ewogloarge.com^
 ||ewordofmouth.com^
@@ -58277,6 +58455,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||exitfuel.com^
 ||exitintel.com^
 ||exitmonitor.com^
+||exitpathways.com^
 ||exivara24.com^
 ||exk.myrobd.com^
 ||exklusivrad.de^
@@ -58822,11 +59001,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||factortg.com^
 ||factorystore.ca^
 ||facultymoney.com^
-||facxupsw.com^
 ||facyline.de^
 ||fadechildren.com^
 ||fadedsnow.com^
 ||fadegranted.com^
+||faderside.com^
 ||fadexplosion.com^
 ||fadian.xin^
 ||fads.online^
@@ -58846,7 +59025,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fafagou.com^
 ||fafengimoco.net^
 ||fafocoffee.shop^
-||fafpiqlmaogr.com^
 ||faftooptuk.com^
 ||fag-bearing.net^
 ||fagarauvitic.com^
@@ -58952,6 +59130,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||falkenivo.net^
 ||falkenmode.de^
 ||falkenruhx.com^
+||falkenstahl.de^
 ||falkwo.com^
 ||fallbrook247.com^
 ||fallclk.com^
@@ -58988,6 +59167,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||familyborn.com^
 ||familylobby.com^
 ||familynow.club^
+||familysarl.org^
 ||familyshark.com^
 ||familystore.com^
 ||familytaste.cn^
@@ -59109,6 +59289,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||farlad.com^
 ||farleylathee.com^
 ||farload.com^
+||farlquire.qpon^
 ||farma-europe.com^
 ||farmacija-hr.com^
 ||farmacijahr.com^
@@ -59243,6 +59424,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fastshare.org^
 ||fastsky.digital^
 ||fastsllot-fr.fr^
+||fastsllots-fr.fr^
 ||faststart.ru^
 ||fasttiger.io^
 ||fasttrack.fr^
@@ -59706,6 +59888,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ferank.fr^
 ||feravixio.net^
 ||ferdarius.com^
+||ferdeon.com^
 ||ferganils.com^
 ||fergatex.io^
 ||fergusewing.com^
@@ -59728,10 +59911,12 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||feroffer.com^
 ||feronilva.com^
 ||feroxbuster.com^
+||ferraaccig.store^
 ||ferret.3tech.no^
 ||ferret.ecvan.io^
 ||ferret.jesper.hk^
 ||ferrisoisin.com^
+||ferryhill.net^
 ||ferthhagboat.com^
 ||fertilab.net^
 ||feruleucoid.com^
@@ -60056,6 +60241,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fickotstuk.space^
 ||ficopranced.com^
 ||fictiongroin.com^
+||ficulaervil.cyou^
 ||ficusoid.xyz^
 ||fid.agkn.com^
 ||fidar.site^
@@ -60446,6 +60632,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||finzy6-at25.sbs^
 ||finzy6-aut64.sbs^
 ||finzy6-et44.sbs^
+||finzy7-ad49.sbs^
 ||finzy7-ea70.sbs^
 ||finzy7-est89.sbs^
 ||finzy7-et48.sbs^
@@ -60508,6 +60695,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fireworksai.cn^
 ||fireworkswad.com^
 ||fireworktv.com^
+||firewvolat.store^
 ||firlotphorid.com^
 ||firm.nu^
 ||firmadmire.com^
@@ -60608,6 +60796,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fitiwelt.com^
 ||fitliebe.de^
 ||fitluna.shop^
+||fitlyzincic.com^
 ||fitment47.com^
 ||fitmessage.com^
 ||fitneed.top^
@@ -60792,6 +60981,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||flashingbade.com^
 ||flashnetic.com^
 ||flashpdf.cn^
+||flashpointiq.com^
 ||flashrewards.co^
 ||flashtalking.com^
 ||flashtexting.com^
@@ -60858,6 +61048,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||flexcart.biz^
 ||flexderek.com^
 ||flexibase.online^
+||fleximetrics.com^
 ||flexioptions.com^
 ||flexjibs.com^
 ||flexlinks.com^
@@ -61519,6 +61710,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fortillo.com^
 ||fortis-prime.com^
 ||fortissio.com^
+||fortmark.top^
 ||fortnx.best^
 ||fortnz.com^
 ||fortolv.com^
@@ -62163,6 +62355,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||friggaantres.com^
 ||frigid-wait.pro^
 ||frigpixyish.com^
+||friheden.de^
 ||frijachock.cfd^
 ||frillyheat.pro^
 ||frilns.com^
@@ -62184,6 +62377,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||friwft.vox.pl^
 ||frixwnntfn.com^
 ||frizbit.com^
+||frizigella.net^
 ||frizzsince.com^
 ||frjmfaqfse.com^
 ||frm.fairment.de^
@@ -62656,6 +62850,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fusscupcakes.com^
 ||fussheld.com^
 ||fussy-rest.pro^
+||fussyhiccup.qpon^
 ||fussyreturn.com^
 ||fustavi.shop^
 ||fusterquaver.com^
@@ -62742,7 +62937,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||fwcdn3.com^
 ||fwdservice.com^
 ||fwdtrk.com^
-||fwefafajrjaz.com^
 ||fwegwonurb.in^
 ||fwepd.xyz^
 ||fwertty.shop^
@@ -63165,7 +63359,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gabbian.de^
 ||gabelglanz.de^
 ||gablingcaph.qpon^
-||gabomrqaxnu.com^
 ||gabor.in^
 ||gaborbelgie.com^
 ||gaborberlin.com^
@@ -63192,7 +63385,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gadgetboy.net^
 ||gadgetgrids.com^
 ||gadishop.com^
-||gadlralwoa.com^
 ||gadlt.nl^
 ||gadmagckfy.com^
 ||gadmaster.com^
@@ -63406,6 +63598,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gamescdnfor.com^
 ||gamescrack.fr^
 ||gamescrack.org^
+||gamesfinal.com^
 ||gamesfly.com^
 ||gameshackz.com^
 ||gamesims.ru^
@@ -63414,6 +63607,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gamesjumpers.com^
 ||gamesluck.com^
 ||gamesmania.shop^
+||gamesmedal.com^
 ||gameson.site^
 ||gamesrevenue.com^
 ||gamesrotator.com^
@@ -63536,6 +63730,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||garm9yuma.com^
 ||garmelori.com^
 ||garmin-us.shop^
+||garmony-ai.com^
 ||garnetbear.shop^
 ||garngemming.cfd^
 ||garosesia.com^
@@ -63948,6 +64143,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||geekotg.com^
 ||geerahyasmak.cfd^
 ||geesoaptomu.net^
+||geestsfigaro.com^
 ||geet3xanxc.com^
 ||geethaiw.xyz^
 ||geezduh.com^
@@ -63973,7 +64169,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||geistm.com^
 ||geiyujieda.com^
 ||gekeebsirs.com^
-||gekpsivjequd.com^
 ||gekroutoukr.net^
 ||gelbboru.com^
 ||geldcounter.de^
@@ -64085,6 +64280,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||genuinepeople.cc^
 ||genuiney.com^
 ||genussfein.com^
+||genussfrei.com^
 ||genusskeller.com^
 ||genymotion.org^
 ||geo-targetly.com^
@@ -64456,6 +64652,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||getlive.news^
 ||getma.tech^
 ||getmacos.org^
+||getmakeme.com^
 ||getmari.com^
 ||getme.badovo.nl^
 ||getme.grivola.nl^
@@ -64515,6 +64712,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||getstats.org^
 ||getsthis.com^
 ||getsugarfix.com^
+||gettamerin.store^
 ||getter.cfd^
 ||getter.fun^
 ||getterms.io^
@@ -64766,6 +64964,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gh3.ru^
 ||gh8fiugo.xyz^
 ||ghabovethec.info^
+||ghajwnobhfsb.com^
 ||ghak.com^
 ||gharieni.cn^
 ||ghattiikona.cfd^
@@ -65221,6 +65420,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gleenbleezy.cfd^
 ||gleenplants.com^
 ||gleetresis.com^
+||gleg-starn.shop^
 ||glenevolapie.com^
 ||glenfordcap.com^
 ||glenmarqon.com^
@@ -65424,7 +65624,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||glukropi.com^
 ||glumapproval.com^
 ||glumentrol.com^
-||glumshoulder.pro^
 ||gluntaro.net^
 ||gluphordoweb.net^
 ||gluschwein.de^
@@ -65453,7 +65652,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||gmai.com^
 ||gmail.tf^
 ||gmailpc.com^
-||gmakzazaqoz.com^
 ||gmamq.com^
 ||gmatch.jp^
 ||gmbh2go.de^
@@ -66255,6 +66453,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||goldflame.com^
 ||goldigigli.store^
 ||goldira.wiki^
+||goldkauf-web.de^
 ||goldline.pro^
 ||goldnews24.shop^
 ||goldoffer.online^
@@ -67042,6 +67241,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||groundtruth.com^
 ||group-ib.ru^
 ||group-rwe.de^
+||groupe-reusse.ch^
 ||groupeauto.fr^
 ||groupebinary.com^
 ||groupeshf.com^
@@ -67066,6 +67266,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||groweyelid.com^
 ||growfollow.xyz^
 ||growin.cn^
+||growindiaup.net^
 ||growingcat.com^
 ||growingio.cn^
 ||growingio.com^
@@ -69207,6 +69408,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hacksaw37.com^
 ||hacksnew.com^
 ||hackzone.me^
+||hacminhphat.com^
 ||hacmoolrooph.com^
 ||hacx60.com^
 ||haden.at^
@@ -69577,6 +69779,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||harris.ni.com^
 ||harrttravel.com^
 ||harryhovak.com^
+||harryshives.net^
 ||harsh-dust.com^
 ||harshil.site^
 ||harshplant.com^
@@ -69647,7 +69850,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hateupopred.com^
 ||hatme.de^
 ||hatmiso.net^
-||hatofdap.com^
 ||hatoltd.com^
 ||hatressstunk.com^
 ||hats-47b.com^
@@ -70221,12 +70423,14 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||helftkai.de^
 ||helgasstube.de^
 ||helib.xyz^
+||helichipka.com^
 ||helicient.com^
 ||helidewo.com^
 ||helinoxlife.com^
 ||heliobedlamp.com^
 ||heliohouse.shop^
 ||helios.g2a.com^
+||helium-mobile-prod-metrics.s3.us-west-2.amazonaws.com^
 ||heliumads.com^
 ||helivo.de^
 ||helixeditor.com^
@@ -70274,6 +70478,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||helpingtrk.com^
 ||helplessfew.com^
 ||helpsandalen.com^
+||helsekort.com^
 ||heltriva.com^
 ||helvaron.shop^
 ||helvellreest.com^
@@ -70338,6 +70543,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||herb7calk.com^
 ||herbalife.pl^
 ||herbolo-new.com^
+||herbonix.net^
 ||herculean57.com^
 ||herdgrip.com^
 ||heredates.com^
@@ -70662,7 +70868,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hidusbf.com^
 ||hidusbf.net^
 ||hidusbf.org^
-||hidxuqozdopk.com^
 ||hidzrf.icu^
 ||hie.li^
 ||hiend.xyz^
@@ -71309,6 +71514,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||holzhausenug.de^
 ||holzheiz.com^
 ||holzjosh.de^
+||holzkerngear.com^
 ||holzklima.de^
 ||holzkohler.com^
 ||holzkraft.pro^
@@ -71326,6 +71532,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||home-aytm.com^
 ||home-gear24.de^
 ||home-geare.de^
+||home-muse.shop^
 ||home-outlet.pl^
 ||home-wegame.com^
 ||home.foni.net^
@@ -71401,6 +71608,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||homla-promo.shop^
 ||homla-rabat.shop^
 ||homla-stock.shop^
+||homla-super.shop^
 ||homla-tanie.shop^
 ||homla.fit^
 ||homla.lat^
@@ -71412,6 +71620,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||homlapoland.shop^
 ||homlapromo.shop^
 ||homlarabat.shop^
+||homlasoft.shop^
 ||homlastock.shop^
 ||homlasuper.shop^
 ||homlatanie.shop^
@@ -71932,8 +72141,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hoyaga.xyz^
 ||hoyinvexa.org^
 ||hoyonx.com^
+||hoystreaming.com^
 ||hozbkgsiaa.com^
 ||hozenee.com^
+||hozoboz.com^
 ||hozraki.shop^
 ||hp-dy.net^
 ||hp.gcafe.vn^
@@ -71942,6 +72153,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hp.smiler-ad.com^
 ||hp1.tcbnet.ne.jp^
 ||hpanalytics.net^
+||hpaomcbfszjs.com^
 ||hpco.6fai2.cn^
 ||hpcwwd.com^
 ||hpd.baidu.cn^
@@ -71973,7 +72185,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hppvkbfcuq.com^
 ||hppymel.com^
 ||hpq.fly90h.com^
-||hpqwvdhg.com^
 ||hprofits.com^
 ||hps.pornpics.com^
 ||hpsd.k12.pa.us^
@@ -72010,6 +72221,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||hqpornpro.com^
 ||hqpubs.com^
 ||hqrbsikjky.com^
+||hqrdsdt.sbs^
 ||hqsblog.com^
 ||hqscene.com^
 ||hqtrk.com^
@@ -72176,7 +72388,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||htmlpasta.com^
 ||htmonster.com^
 ||htnote.info^
-||htodiwqzyj.com^
 ||htpanel.com^
 ||htplayground.com^
 ||htqfxh.vuch.cz^
@@ -72299,7 +72510,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||huffer.club^
 ||huffingtopost.fr^
 ||hufkemtoc.xyz^
-||hufskiwuho.com^
 ||hugazdazst.com^
 ||hugblog.xyz^
 ||hugdancing.com^
@@ -72375,7 +72585,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||humiriajig.com^
 ||humliedome.cfd^
 ||humming-ruin.com^
-||hummingcrow.com^
 ||hummingexam.com^
 ||humont.xyz^
 ||humoralbooms.top^
@@ -72877,6 +73086,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||i2019.jp^
 ||i218435.net^
 ||i22smm.5200e.com^
+||i23.fastpic.ru^
 ||i24.com.ua^
 ||i27jhc4ut0.com^
 ||i2ad.jp^
@@ -73229,6 +73439,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||idavmk1276.com^
 ||idawziv.cn^
 ||idbus.trupeer.ai^
+||idc-analytics-api.infineon.com^
 ||idc.com.ua^
 ||idc.hl.cn^
 ||idc9pk.com^
@@ -73338,6 +73549,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ie-audit.com^
 ||ie-g2.gumgum.com^
 ||ie-lb.gumgum.com^
+||ie-medical.com^
 ||ie.5500w.com^
 ||ie.csmayo.com^
 ||ie8eamus.com^
@@ -73350,6 +73562,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||iefmvk.cn^
 ||ieg.intel.com^
 ||ieginc.com^
+||iehlfa.com^
 ||iehmiqwudyc.com^
 ||iehubtnzp.com^
 ||ieju.zgtwpscw.cn^
@@ -73495,6 +73708,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||igrun.com^
 ||igscn.com^
 ||igsgutter.com^
+||igtacademy.com^
 ||igtgh.rejuvia.co^
 ||igtubrsiknb.com^
 ||igugutjhs.com^
@@ -74031,6 +74245,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||imluving.com^
 ||immanalytics.com^
 ||immanitys.com^
+||immasslipw.store^
 ||immaterial79.com^
 ||immediate49.com^
 ||immediateera.com^
@@ -74270,6 +74485,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||increaserev.com^
 ||increasingly.co^
 ||incredibbble.com^
+||incriuely.store^
 ||incrstud.qpon^
 ||incruises.com^
 ||incs.get-go.com^
@@ -74285,6 +74501,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||index.ru^
 ||indexad.net^
 ||indexnew.cyou^
+||indexnews-ai.com^
 ||indexstats.com^
 ||indextools.com^
 ||indexww.com^
@@ -74779,6 +74996,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||inlugiar.com^
 ||inmedias.biz^
 ||inmense.site^
+||inmewfishmen.cfd^
 ||inminuner.com^
 ||inmobi.cn^
 ||inmobi.com^
@@ -75016,6 +75234,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||intela.com^
 ||intelaxa.com^
 ||inteledirect.com^
+||intelfootr.store^
 ||intelilawllp.com^
 ||intelliad.de^
 ||intelliads.com^
@@ -75132,6 +75351,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||intrispolt.store^
 ||introducek.com^
 ||introjava.com^
+||introloose.store^
 ||introooly.store^
 ||introphin.com^
 ||introstami.store^
@@ -75317,6 +75537,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ipcywg.com^
 ||ipe-4you.at^
 ||ipecacdauri.cfd^
+||ipecapitanca.com^
 ||ipeco.cn^
 ||ipelo.site^
 ||iper2.com^
@@ -75655,6 +75876,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||islamm.org^
 ||islandlife-client-tracking.goodgamestudios.com^
 ||islandmob.com^
+||islandslove.com^
 ||islandssouth.com^
 ||islbaho.top^
 ||ism-adserver.s3-eu-west-1.amazonaws.com^
@@ -76611,6 +76833,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jdznyguyrn.com^
 ||je2be.com^
 ||je3zdrcua.com^
+||jealousbonus.com^
 ||jealoussale.com^
 ||jeancuoatu.com^
 ||jeanneodds.com^
@@ -76905,6 +77128,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jililine.com^
 ||jillextent.com^
 ||jillingfills.com^
+||jilljordan.net^
 ||jillomelette.com^
 ||jillsglasses.com^
 ||jillstuart.cn^
@@ -76982,7 +77206,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jitanvlw.com^
 ||jithethos.net^
 ||jitoassy.com^
-||jitpirkky.com^
 ||jitrocandler.com^
 ||jitsu.com^
 ||jitsu.ixbt.com^
@@ -77090,7 +77313,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jknrwe.cn^
 ||jkoi.jp^
 ||jkolaak239.eu.cc^
-||jkozcaswi.com^
 ||jkpgmwsq.com^
 ||jkpzthxjt.com^
 ||jkrjrc.adecco.de^
@@ -77261,6 +77483,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jogglypion.com^
 ||jogjacar.com^
 ||jogo37.com^
+||jogoleve.click^
 ||jogosrcg.com^
 ||jogyfei.com^
 ||johanneslemke.de^
@@ -78204,7 +78427,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||jyiikm.xyz^
 ||jyinwqmzyh.com^
 ||jyiwnb82b.com^
-||jyjqesmknql.com^
 ||jyk.jp^
 ||jylry.com^
 ||jynqerell.com^
@@ -78394,6 +78616,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ka1bsc6mm0.com^
 ||ka73-urara.club^
 ||ka7co.com^
+||ka9gcc8ifd.com^
 ||kaan.kakao.com^
 ||kaascypher.com^
 ||kaasinocasino.fr^
@@ -78440,6 +78663,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kaffee-held24.de^
 ||kaffee-sofort.de^
 ||kaffeebank.de^
+||kaffeebrauer.com^
 ||kaffeecaffe.com^
 ||kaffeedeckel.de^
 ||kaffeedirekt.ch^
@@ -78451,6 +78675,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kaffeezone.com^
 ||kaffirsshoal.cfd^
 ||kafiribulkin.com^
+||kafirscaplan.com^
 ||kafqucriz.in^
 ||kaftaclarkia.com^
 ||kafushop.com^
@@ -78467,7 +78692,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kagxyvk.com^
 ||kaharmonie.nl^
 ||kahgjjd.com^
-||kahjmiaz.com^
 ||kahrmannsown.de^
 ||kai-safari.net^
 ||kai-search.com^
@@ -78520,6 +78744,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kalmerino.com^
 ||kalmerito.com^
 ||kalmwaardhof.com^
+||kalohia.de^
 ||kalomethol.cyou^
 ||kalooga.com^
 ||kalrywot.com^
@@ -78993,6 +79218,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kejaksan.xyz^
 ||kejaksanc.cc^
 ||kejakswan.cc^
+||kejc.org^
 ||kejet.com^
 ||kejet.net^
 ||kejixueyuan.cn^
@@ -79020,6 +79246,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||keltygear.com^
 ||keltysale.com^
 ||kelun13.top^
+||kelvetorpe.net^
 ||kelvexian.com^
 ||kelvinx.org^
 ||kelvioraex.com^
@@ -79064,6 +79291,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kermistruced.com^
 ||kern-photo.com^
 ||kern-recht.de^
+||kernarc.com^
 ||kernel-analytics.com^
 ||kernelcoads.com^
 ||kernellife.com^
@@ -79390,7 +79618,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kineticflare.net^
 ||kinetiksoft.com^
-||kinfhilahwu.com^
 ||king-oak.cn^
 ||kingadblock.com^
 ||kingads.digital^
@@ -79538,7 +79765,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kivdtuobj.in^
 ||kivgzegkoaq.in^
 ||kivo.fun^
-||kivzapqak.com^
 ||kiw79.com^
 ||kiwame.tv^
 ||kiwea.shop^
@@ -79586,6 +79812,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kjhg.shop^
 ||kjiao.com^
 ||kjj.app^
+||kjjcsdh45.sbs^
 ||kjlcpgsk.com^
 ||kjltxn.com^
 ||kjlzt.cn^
@@ -79612,6 +79839,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kkh3e6ylwt.com^
 ||kkhardwood.com^
 ||kkholz.at^
+||kkiawwtir.in^
 ||kkiazspu.com^
 ||kkisoo.com^
 ||kkjshsj.com^
@@ -79715,6 +79943,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||klimagerat.com^
 ||klimawelts.com^
 ||klimmotorrad.com^
+||kling-ai.video^
 ||klingxai.com^
 ||klinklan.us^
 ||klinkseattle.org^
@@ -79831,6 +80060,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kmsccedn.com^
 ||kmspi.co^
 ||kmspico-free.com^
+||kmspico-new.best^
 ||kmspico.blog^
 ||kmspico.co^
 ||kmspico.dev^
@@ -80031,6 +80261,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kolua.de^
 ||komansky.com^
 ||kombr.ru^
+||komfera.com^
 ||komi.lt^
 ||komm.saug.us^
 ||kommodende.com^
@@ -80289,7 +80520,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kremer-mode.de^
 ||krenvuzo.shop^
 ||kreokqonntu.in^
-||kreomfoq.com^
 ||kreps.xyz^
 ||krevano.shop^
 ||krezuno.shop^
@@ -80632,7 +80862,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||kurnhiafb.in^
 ||kurssparhed.net^
 ||kursy-ege.ru^
-||kurtzaat.com^
 ||kuru2jam.com^
 ||kurulum.xyz^
 ||kurundu.de^
@@ -81150,7 +81379,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||labudanka1.com^
 ||labudanka2.com^
 ||labwave94.shop^
-||labwcupacoqc.com^
 ||labx.lol^
 ||lace-ist.shop^
 ||lacentrale.fr/static/fragment-tracking/tracking-
@@ -81484,6 +81712,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||latgooon.com^
 ||lathegladly.com^
 ||lathlatrant.cfd^
+||lathven.cfd^
 ||latinareki.com^
 ||latinusagate.cfd^
 ||latinwayy.com^
@@ -81687,7 +81916,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lcugatnuhfpo.com^
 ||lcugj.pestie.com^
 ||lcugzodfdo.com^
-||lcuijfiybks.com^
 ||lcujaxsi.in^
 ||lcuowqfa.in^
 ||lcuozmosstcu.com^
@@ -81897,6 +82125,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||leashmargin.com^
 ||leashragslob.com^
 ||leasing.axus.be^
+||leatherdepot.org^
 ||leatmansures.com^
 ||leaveundo.com^
 ||leavycranes.com^
@@ -82391,7 +82620,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lhdlbp.xyz^
 ||lhe-beacon.team-rec.jp^
 ||lhefuynykwed.com^
-||lhegilonnatl.com^
 ||lhegqwyw.com^
 ||lhewdj.fnac.pt^
 ||lhg.alisinak.com^
@@ -82496,6 +82724,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||libs.hijiffy.com^
 ||libs.tvmao.cn^
 ||libstat.com^
+||libsunakite.cfd^
 ||libtl.com^
 ||libwebp.com^
 ||libwebp.net^
@@ -82637,6 +82866,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lightstretch.com^
 ||lighttalon.com^
 ||lightupnova.com^
+||lignatok.shop^
 ||ligninkeftiu.com^
 ||ligydaloca.com^
 ||ligydunswe.store^
@@ -83548,7 +83778,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lkcoffe.com^
 ||lkdvvxvtsq6o.com^
 ||lkdykbudv.com^
-||lkedkivikxpe.com^
 ||lkedvhnt.com^
 ||lkg6g644.de^
 ||lkglo.hoop.app^
@@ -84444,6 +84673,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||log.go.com^
 ||log.gomlab.com^
 ||log.gosrio.com^
+||log.greyact.com^
 ||log.h5scene.com^
 ||log.happypvp.com^
 ||log.hasaki.vn^
@@ -84465,6 +84695,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||log.iwsp.net^
 ||log.iypkb6.com^
 ||log.jd.com^
+||log.jswsx.com^
 ||log.kaayun.com^
 ||log.kajicam.com^
 ||log.kaka.me^
@@ -84759,6 +84990,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||logs.clubalfa.it^
 ||logs.cnfol.com^
 ||logs.dohaxe.com^
+||logs.drivit.com^
 ||logs.ecodev.ch^
 ||logs.enjoy.ai^
 ||logs.eresmas.com^
@@ -85103,6 +85335,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||loupan99.com^
 ||loupesarkab.com^
 ||loupmismaze.com^
+||loupthomazo.com^
 ||lourcingle.com^
 ||louse.sigle.io^
 ||lousoozi.net^
@@ -85302,7 +85535,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lpftvmqzs.com^
 ||lphszexo.heyy.io^
 ||lpibex.com^
-||lpiovzzuwc.com^
 ||lpipua.kcar.com^
 ||lpizibqu.in^
 ||lpjesjxce.net^
@@ -85317,7 +85549,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lpocne.top^
 ||lpokqm.zapa.fr^
 ||lporirxe.com^
-||lpotilft.com^
 ||lpqhkj.cn^
 ||lpquizzhubon.com^
 ||lprhomes.com^
@@ -85413,6 +85644,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||lsoclwa.icu^
 ||lsosad.com^
 ||lspconfig.com^
+||lsrjlovn.shop^
 ||lsrke.marcos.com^
 ||lssmag.github.io^
 ||lsss.lomestar.de^
@@ -87658,6 +87890,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||malilib.com^
 ||malilib.net^
 ||malilib.org^
+||malina-casino.fr^
 ||maling.dn.no^
 ||maling.ue.dn.no^
 ||maljxp.cn^
@@ -88073,6 +88306,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mascara21.top^
 ||maschina.xyz^
 ||mascotsmall.com^
+||masdelasala.com^
 ||masdk.3g.qq.com^
 ||masdpanalytics.azureedge.net^
 ||masdsmt.com^
@@ -88123,6 +88357,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mastertop100.org^
 ||masterwanker.com^
 ||masterworks.baby^
+||mastharkens.cfd^
 ||masti.store^
 ||mastleven.com^
 ||mat-chy.site^
@@ -88166,6 +88401,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matchzzz.jp^
 ||mateast.com^
 ||mateinoma.com^
+||matejob.org^
+||matelcc73.sbs^
 ||matelso.de^
 ||matenor.fr^
 ||mateozeas.com^
@@ -88192,6 +88429,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo-new.x5.ru^
 ||matomo-tracking.fia.com^
 ||matomo-tracking.obclienti.it^
+||matomo-tracking.vsgitvpn.com^
 ||matomo-wpmudev-analytics1-925643958.us-east-2.elb.amazonaws.com^
 ||matomo-wpmudev-analytics2-742601353.us-east-2.elb.amazonaws.com^
 ||matomo-wpmudev-analytics3-898024192.us-east-2.elb.amazonaws.com^
@@ -88234,6 +88472,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.bafza.de^
 ||matomo.bak-it.de^
 ||matomo.baobab.at^
+||matomo.bayard.io^
 ||matomo.bdi.eu^
 ||matomo.be-on.de^
 ||matomo.belex.com^
@@ -88431,6 +88670,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.imia.de^
 ||matomo.impa.br^
 ||matomo.ims.de^
+||matomo.imsoft.at^
 ||matomo.incca.com^
 ||matomo.incm.pt^
 ||matomo.index.hu^
@@ -88441,6 +88681,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.inuits.eu^
 ||matomo.ipax.at^
 ||matomo.ird.fr^
+||matomo.ireb.org^
 ||matomo.is2.de^
 ||matomo.isof.se^
 ||matomo.issy.com^
@@ -88529,6 +88770,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.miz.org^
 ||matomo.mk-ol.de^
 ||matomo.mkrsi.pl^
+||matomo.mncdn.com^
 ||matomo.moeci.com^
 ||matomo.moja.pl^
 ||matomo.molka.ir^
@@ -88574,6 +88816,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.ortop.ua^
 ||matomo.oska.com^
 ||matomo.oulu.fi^
+||matomo.ovgu.de^
 ||matomo.oyvey.de^
 ||matomo.paddle.be^
 ||matomo.paizo.com^
@@ -88644,6 +88887,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.smp.media^
 ||matomo.sms77.io^
 ||matomo.sofia.bg^
+||matomo.solva.kz^
 ||matomo.spade.be^
 ||matomo.spv.se^
 ||matomo.srce.hr^
@@ -88656,6 +88900,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.sva.de^
 ||matomo.svea.com^
 ||matomo.swica.ch^
+||matomo.swk-kl.de^
 ||matomo.sylon.net^
 ||matomo.t-g.io^
 ||matomo.takuma.de^
@@ -88715,6 +88960,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.watch.de^
 ||matomo.welang.eu^
 ||matomo.wetell.de^
+||matomo.wh-d.at^
 ||matomo.while.io^
 ||matomo.whvn.cc^
 ||matomo.whyex.com^
@@ -88733,6 +88979,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||matomo.zeke.jp^
 ||matomo.zeop.re^
 ||matomo.zita.be^
+||matomo.zlb.de^
 ||matomo.znuny.com^
 ||matomo.zoks.net^
 ||matomo.zorgna.nl^
@@ -88866,7 +89113,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||maximuml.com^
 ||maxiparfum.pl^
 ||maxis-hostel.my^
-||maxis-org.biz.id^
 ||maxisurf.net^
 ||maxitrade.com^
 ||maxlocacao.app^
@@ -88946,6 +89192,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mb4a.com^
 ||mb57.com^
 ||mb9pzp.ru^
+||mba66my.site^
 ||mbada.nan.co.jp^
 ||mbadv.nan.co.jp^
 ||mbai.cn^
@@ -89299,12 +89546,15 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||meble.sofy24.pl^
 ||meblecilam.pl^
 ||meblehandmade.pl^
+||mebleibudowa.com^
 ||meblenaro.shop^
+||meblenavio.shop^
 ||meblenixo.shop^
 ||mebles.shop^
 ||meblinoza.shop^
 ||mebliva.shop^
 ||mebloraba.com^
+||mebloravio.shop^
 ||mebloreno.shop^
 ||meblorento.shop^
 ||meblorika.shop^
@@ -89877,6 +90127,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||menke-bahr.com^
 ||menofvalor.live^
 ||menokurage.com^
+||menorahshtg.cyou^
 ||mensbetter.com^
 ||mensch.ekd.de^
 ||mensheaven.shop^
@@ -90127,6 +90378,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics-api.librato.com^
 ||metrics-api.manjaro.org^
 ||metrics-api.pinata.cloud^
+||metrics-b.61713870.sussybaka.store^
 ||metrics-broker.prod.p.tf1.fr^
 ||metrics-bunny.net^
 ||metrics-capacitor.outsystems.com^
@@ -90161,6 +90413,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics-fe-na3.hubspot.com^
 ||metrics-flow.key.rt.ru^
 ||metrics-fourplayers.junglefrog.com^
+||metrics-fp.yemeksepeti.com^
 ||metrics-fr.connox.ch^
 ||metrics-ga.an.r.appspot.com^
 ||metrics-gateway.sembo.com^
@@ -90181,6 +90434,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics-nl.fitanalytics.com^
 ||metrics-nobroker.cometchat.io^
 ||metrics-now.experian.com^
+||metrics-ochu.oc.hu^
 ||metrics-offlinegames.junglefrog.com^
 ||metrics-overstims.atoutforme.ch^
 ||metrics-p.oceanhub.cc^
@@ -90366,6 +90620,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.airtran.com^
 ||metrics.airtv.net^
 ||metrics.aisensia.com^
+||metrics.aiso.team^
 ||metrics.ajinomoto.co.jp^
 ||metrics.ak-aesthetics.dk^
 ||metrics.ak.se^
@@ -90380,6 +90635,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.alecensa.com^
 ||metrics.alexandani.com^
 ||metrics.alfabank.ru^
+||metrics.alfredp2p.io^
 ||metrics.alh-akademie.de^
 ||metrics.alienware.com^
 ||metrics.allaboutyou.com^
@@ -90394,6 +90650,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.alpinawatches.com^
 ||metrics.alpo.com^
 ||metrics.alpsadventures.ch^
+||metrics.altaroc.pe^
 ||metrics.alza.at^
 ||metrics.alza.cz^
 ||metrics.alza.de^
@@ -90472,6 +90729,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.ansys.com^
 ||metrics.antena3.com^
 ||metrics.anthem.com^
+||metrics.anthropic.com^
 ||metrics.antonsiekmann.com^
 ||metrics.anytime.gr^
 ||metrics.aohostels.com^
@@ -90585,6 +90843,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.aviationweek.com^
 ||metrics.avigo.com^
 ||metrics.avnet.com^
+||metrics.avoriaz.com^
 ||metrics.axa-direct-life.co.jp^
 ||metrics.axis.com^
 ||metrics.axs.com^
@@ -91518,6 +91777,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.finning.com^
 ||metrics.fireballprinting.com^
 ||metrics.firstcamp.dk^
+||metrics.fitadium.com^
 ||metrics.fitanalytics.com^
 ||metrics.fitchratings.com^
 ||metrics.fitness-singles.com^
@@ -92145,6 +92405,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.kickfin.com^
 ||metrics.kid.no^
 ||metrics.kidney.org^
+||metrics.kidsaround.com^
 ||metrics.kidskrill.com^
 ||metrics.kidsnews.com.au^
 ||metrics.kidspot.com.au^
@@ -92729,6 +92990,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.nomade-aventure.com^
 ||metrics.nomador.com^
 ||metrics.nonpolynomial.com^
+||metrics.nonstopgym.com^
 ||metrics.nordicflame.de^
 ||metrics.northboundoutfittersmi.com^
 ||metrics.northeast.aaa.com^
@@ -92980,6 +93242,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.powerelectronics.com^
 ||metrics.powerreviews.com^
 ||metrics.pozolotka.ua^
+||metrics.ppay.observabilidad.personal.com.ar^
 ||metrics.ppt.org^
 ||metrics.prairiefarmer.com^
 ||metrics.prd.base.be^
@@ -93018,6 +93281,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.profi-shop-franz.de^
 ||metrics.profishop.nl^
 ||metrics.profissio.ai^
+||metrics.projectxparis.com^
 ||metrics.prom.third-party-app.sberdevices.ru^
 ||metrics.prometric.com^
 ||metrics.promocheckers.be^
@@ -93815,6 +94079,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.toptenreviews.com^
 ||metrics.toryburch.com^
 ||metrics.tosize.at^
+||metrics.tosize.de^
 ||metrics.totalwine.com^
 ||metrics.toughmudder.com^
 ||metrics.townsvillebulletin.com.au^
@@ -93928,6 +94193,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.utw150.de^
 ||metrics.v1ce.co^
 ||metrics.v3.blast-info.fr^
+||metrics.vaccindirekt.se^
 ||metrics.vademecum.es^
 ||metrics.vaihtokapula.fi^
 ||metrics.vakantieveilingen.nl^
@@ -93948,6 +94214,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.vans.com.au^
 ||metrics.vasco-impact.com^
 ||metrics.vast.ai^
+||metrics.vavabid.be^
 ||metrics.vcm.com^
 ||metrics.vda.de^
 ||metrics.veintreatmentclinic.com^
@@ -94209,6 +94476,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics.xouxou.com^
 ||metrics.xreacher.com^
 ||metrics.xxlnutrition.com^
+||metrics.xyrality.com^
+||metrics.yandex.net^
 ||metrics.yardhouse.com^
 ||metrics.yatrakundaliniactivation.fr^
 ||metrics.yazen.com^
@@ -94269,6 +94538,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||metrics1.mortgage.com^
 ||metrics1.thankyou.com^
 ||metrics2.barclaysus.com^
+||metrics2.boomy.com^
 ||metrics2.bybanking.com^
 ||metrics2.data.hicloud.com^
 ||metrics2.houselogic.com^
@@ -94465,6 +94735,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mhwbhn.tohapi.fr^
 ||mhwozc.cn^
 ||mhwuijet.shop^
+||mhybzynmuovq.in^
 ||mhysbwo.xyz^
 ||mhyxciahfas.com^
 ||mhzyawls.cfd^
@@ -94600,6 +94871,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mifamlfziobx.in^
 ||mifapxodvwa.com^
 ||mifepsaimp.com^
+||mifkanow.com^
 ||miftazqfua.com^
 ||mifun.mobi^
 ||mifvigmz.com^
@@ -94764,7 +95036,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mindershrimp.com^
 ||mindfulgem.com^
 ||mindinsole.com^
-||mindless-pay.com^
 ||mindlessmark.com^
 ||mindlytix.com^
 ||mindmanager.cc^
@@ -94953,6 +95224,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||misoxfnuva.com^
 ||misoxthmuqa.com^
 ||misqimohlpk.com^
+||misradstore.com^
 ||misreportmeh.com^
 ||misrepush.com^
 ||missena.io^
@@ -95092,6 +95364,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mjttgw.xlmoto.fr^
 ||mjursnb.com^
 ||mjvb60t4g.com^
+||mjvmtmaogdm.com^
 ||mk-ads.com^
 ||mk-cdn.net^
 ||mk.appwebel.com^
@@ -95187,6 +95460,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ml42.fixed.net^
 ||ml42.hosting.com^
 ||mladedda.net^
+||mlamhrqoghhw.com^
 ||mland.jp^
 ||mlatrmae.net^
 ||mlbhungary.com^
@@ -95417,6 +95691,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mmszxc.top^
 ||mmtechtest.xyz^
 ||mmtnat.com^
+||mmtpromotion.com^
 ||mmtracking.com^
 ||mmtro.com^
 ||mmulsx.comet.it^
@@ -95596,8 +95871,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mobilda.com^
 ||mobildev.in^
 ||mobile-10.com^
+||mobile-analytics.sahibinden.com^
 ||mobile-analytics.shutterfly.com^
 ||mobile-analytics.soymach.com^
+||mobile-analytics.uspoloassn.com^
 ||mobile-app-analytics-e2c0d9016621.herokuapp.com^
 ||mobile-clean.top^
 ||mobile-click.biz^
@@ -95910,6 +96187,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mon.tiktokv.eu^
 ||mon.xactware.com^
 ||mon.zijieapi.com^
+||monacidcurvy.com^
 ||monaco-jack.fr^
 ||monadplug.com^
 ||monarchads.com^
@@ -96364,6 +96642,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||moxopostman.com^
 ||moxqevi.shop^
 ||moxvire.shop^
+||moxylounge.com^
 ||moy-domik.com^
 ||moyix.com^
 ||moyslovar.ru^
@@ -96458,7 +96737,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mpush.cn^
 ||mpush.qq.com^
 ||mputq031w.com^
-||mpuzpejtefw.com^
 ||mpwik.weebly.com^
 ||mpx.marpipe.com^
 ||mpzw.com^
@@ -97002,7 +97280,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||muonti.com^
 ||mupads.de^
 ||mupishop.de^
-||muptapaxznu.com^
 ||muqtti.motoin.de^
 ||mur-shop.com^
 ||muragetunnel.com^
@@ -97110,7 +97387,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||muvrali.shop^
 ||muwmedia.com^
 ||muwwkgocljod.com^
-||muxabxaltka.com^
 ||muxc8wxhv.com^
 ||muxing.city^
 ||muxingkj.com^
@@ -97147,6 +97423,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mvlkvth.cn^
 ||mvmasters02.com^
 ||mvmbs.com^
+||mvmntteam.com^
 ||mvn.mavonnbd.com^
 ||mvo.bd6t4.xyz^
 ||mvo.chng5.xyz^
@@ -97471,6 +97748,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||mygeomanager.org^
 ||mygizmo.store^
 ||mygls.click^
+||mygoasiatrip.com^
 ||mygummyjelly.com^
 ||myguyapp.com^
 ||myhallo.de^
@@ -97787,6 +98065,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||n10.xyz^
 ||n12qga4ld3zk.com^
 ||n12rk1r9h.com^
+||n1belroom.com^
 ||n1bet.fr^
 ||n1betcasino.fr^
 ||n1ce0n3.xyz^
@@ -97920,7 +98199,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nahg4lhbr.com^
 ||nahna.org^
 ||nahnoji.cz^
-||nahodrnrik.com^
 ||nahuwrbwgg.com^
 ||naiadexports.com^
 ||naiadsystems.com^
@@ -98214,7 +98492,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||naupsakiwhy.com^
 ||naus-analytics-prod.azurewebsites.net^
 ||nauseamouths.com^
-||nauticaldate.pro^
 ||nauticalfox.com^
 ||nauticbay.com^
 ||nauticwerk.com^
@@ -98384,6 +98661,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ncapmmda.courses^
 ||ncapmmda.qpon^
 ||ncapmmda.skin^
+||ncapncr-mmda.lol^
 ||ncaps.my^
 ||ncaqqlck.com^
 ||ncases.com^
@@ -98648,6 +98926,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||neoss.valtik.mx^
 ||neoss.veneva.pe^
 ||neoss.zonazul.co^
+||neostone-ai.com^
 ||neotechix.com^
 ||neotepipr.store^
 ||neotypemyrt.cyou^
@@ -98871,7 +99150,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||networkope.com^
 ||networkpb.com^
 ||networks1000.net^
-||networks830.com^
 ||networksara.com^
 ||networld.hk^
 ||netz.tl^
@@ -98969,6 +99247,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||newblanco.es^
 ||newbluetrue.xyz^
 ||newbornbee.ru^
+||newbourn.org^
 ||newbrave64.top^
 ||newcfds.com^
 ||newcliam.com^
@@ -99483,7 +99762,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nidedfaciend.cfd^
 ||nidehetaira.com^
 ||nidiv.com^
-||nidofsofpo.com^
 ||nidq.zxin131.cn^
 ||nidworkers.com^
 ||nie8fe9far.com^
@@ -99833,7 +100111,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nlzyp.cn^
 ||nm.naturemetrics.com^
 ||nm68kgmnf1.com^
-||nmakilpumvt.com^
 ||nmanateex.top^
 ||nmapquest.com^
 ||nmbtedu.com^
@@ -99875,7 +100152,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nmwhtickxmqx.com^
 ||nmwjoscu.com^
 ||nmws-analytics.sogei.it^
-||nmypizkt.com^
 ||nmzanxng.com^
 ||nn.hl.cn^
 ||nn125.com^
@@ -100037,6 +100313,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nonereeling.cyou^
 ||nonerr.com^
 ||nonexspenz.store^
+||nonf4k3d.com^
 ||nonfatreused.com^
 ||nonflimboz.store^
 ||nongresere.store^
@@ -100274,6 +100551,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||novaskarbex.com^
 ||novastarled.com^
 ||novateki.com^
+||novavestra.com^
 ||novavitalia.de^
 ||novavitalia.io^
 ||novazen.net^
@@ -100347,7 +100625,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nowtrk.com^
 ||nowtuma.net^
 ||nowyourtime.com^
-||noxiousspell.pro^
 ||noxiouswear.pro^
 ||noya-il.com^
 ||noyanceborer.com^
@@ -100605,7 +100882,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ntms.boq.com.au^
 ||ntnt.io^
 ||ntonio.de^
-||ntoxrysfys.com^
 ||ntozchv.icu^
 ||ntp1.rottne.com^
 ||ntrftrk.com^
@@ -100638,6 +100914,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nubaskin.de^
 ||nubblysaves.com^
 ||nubbycoolly.com^
+||nucankaktop.in^
 ||nucaqgnita.com^
 ||nucaul.com^
 ||nuchaldino.cfd^
@@ -100714,6 +100991,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nuncebacked.com^
 ||nunkicurtals.com^
 ||nunqubqafa.com^
+||nuntior.com^
 ||nunxhv.com^
 ||nuomiysb.com^
 ||nuowtbqbtywx.net^
@@ -100825,6 +101103,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nwejs.alcryp.com^
 ||nwemnd.com^
 ||nwera.xyz^
+||nwf1rgy.net^
 ||nwfbvakxd.com^
 ||nwhdrmll9l.com^
 ||nwholf.icu^
@@ -100898,6 +101177,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||nyfyr.com^
 ||nygsystem.com^
 ||nyhdjsn.digital^
+||nyhdmzoocskr.com^
 ||nyhpyq.com^
 ||nyittc.com^
 ||nylacero.com^
@@ -101200,7 +101480,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||oblasjfimqr.in^
 ||oblatasirex.com^
 ||oblg461388.pro^
-||oblguhosmfif.com^
 ||obligesouls.com^
 ||oblivki.biz^
 ||oblocpnaj.com^
@@ -101342,7 +101621,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ocmowgafjj.com^
 ||ocmtag.com^
 ||ocmthood.com^
-||ocmzkiobzod.com^
 ||ocnlondon.info^
 ||ocoaksib.com^
 ||ococlmomp.com^
@@ -101459,7 +101737,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ods-telemetry-server.dev.oa.yo-digital.com^
 ||odswzz.tadaaz.be^
 ||odtrtadl.com^
-||odtvcokzaof.com^
 ||oduwow.com^
 ||odvcdkgc.com^
 ||odyncmusq.xyz^
@@ -101686,6 +101963,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ofz6hz.top^
 ||og-ali1.com^
 ||og-shopee9.com^
+||og-ujnk.net^
 ||og.olgam.com^
 ||og.zyzjpx.cn^
 ||og2ebeuxa.com^
@@ -101767,7 +102045,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ogvaxsvmucuj.in^
 ||ogvdmvxwajdn.com^
 ||ogvomwvkygm.com^
-||ogvosxhucmi.com^
 ||ogvwfafupfi.com^
 ||ogworth.com^
 ||ogzjrajav.com^
@@ -101791,7 +102068,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ohiejo.com^
 ||ohiomm.com^
 ||ohiotinety.com^
-||ohjmhuoknq.com^
 ||ohjptumwe.com^
 ||ohkdsplu.com^
 ||ohlanaizn.com^
@@ -102136,7 +102412,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||olx88world.com^
 ||olxhibziw.com^
 ||olxlucsa.in^
-||olxonqfuwn.com^
 ||olxztunko.com^
 ||olybet.lv^
 ||olybetcasino.fr^
@@ -102426,7 +102701,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||omxamnwm.shop^
 ||omynews.net^
 ||omzal.com^
-||omzarncas.com^
 ||omzffyqihsir.in^
 ||omzylhvhwp.com^
 ||on-air.de^
@@ -102620,7 +102894,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ongsono.com^
 ||onhbfuowc.in^
 ||onhercam.com^
-||onhtkeowd.com^
 ||oniad.com^
 ||onilx.com^
 ||onion.beer^
@@ -102782,7 +103055,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||onpkg.com^
 ||onpluslean.com^
 ||onpnazvtaw.in^
-||onpocxorwqke.com^
 ||onpointfcu.com^
 ||onpolitoeda.com^
 ||onpovnxahobb.com^
@@ -102937,7 +103209,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||opclck.com^
 ||opcmwidruo.com^
 ||opcottoneer.com^
-||opcrigthiob.com^
 ||opcte.com^
 ||opdhoxor.com^
 ||opdpumwcefum.com^
@@ -103175,6 +103446,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||optify.net^
 ||optima-hr.com^
 ||optimal730.com^
+||optimalf.com^
 ||optimalhouse.pro^
 ||optimallimit.com^
 ||optimarkets.com^
@@ -103232,6 +103504,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||opwoxfpmua.in^
 ||opx.webtool.net^
 ||opx2.bin.ua^
+||opxfeed.com^
 ||opyboe.com^
 ||opyiazki.shop^
 ||opzawpactdir.in^
@@ -103261,8 +103534,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||oqiexghl.com^
 ||oqilfrcvqhty.com^
 ||oqjfekdkc.net^
-||oqjrkioxzsih.com^
-||oqlahcdruowd.com^
 ||oqmfhydky.com^
 ||oqmwutbug.com^
 ||oqmxzuagpokf.com^
@@ -103674,7 +103945,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||osqa.com^
 ||osqa.net^
 ||osrakrorro.com^
-||osrbwehfobh.com^
 ||osrcabkto.in^
 ||osrfihqucg.com^
 ||osrra.com^
@@ -103690,7 +103960,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||osspinsira.com^
 ||ossshucklean.com^
 ||ost24.ru^
-||ostfucjah.com^
 ||ostlerscil.com^
 ||ostlon.com^
 ||ostrava.nl^
@@ -103738,7 +104007,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||otclick-adv.ru^
 ||otcofjacpz.in^
 ||otcohfnwe.com^
-||otcongoqn.com^
 ||otel.bipa.app^
 ||otel.biscuit.so^
 ||otel.boxly.ai^
@@ -103837,7 +104105,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||otrwaram.com^
 ||otsbiqaz.in^
 ||otshudi.info^
-||otstaffmys.com^
 ||ott.da.mgtv.com^
 ||ott.eu-west.aps.axp.amazon-adsystem.com^
 ||ott.us-east.aps.axp.amazon-adsystem.com^
@@ -103960,6 +104227,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||outbyte.com^
 ||outchinchour.com^
 ||outclaydola.com^
+||outcomes.analytics.med-refill.com^
 ||outcomes.net^
 ||outcradope.store^
 ||outcrycats.com^
@@ -103968,6 +104236,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||outdoorheld.at^
 ||outdoorio.de^
 ||outdoorpetzl.com^
+||outdoorsale.top^
 ||outdoorsoil.com^
 ||outdoorzelte.com^
 ||outdooutcome.com^
@@ -104211,13 +104480,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||oxcdn.com^
 ||oxcluster.com^
 ||oxcrukcpea.in^
-||oxcwapfa.com^
 ||oxdemir.shop^
 ||oxdx7ahb.site^
 ||oxelvian-ai.org^
 ||oxelvian.com^
 ||oxeotegraves.com^
-||oxfaqcag.com^
 ||oxgdifgt.com^
 ||oxgfheakkam.in^
 ||oxgkavgizc.com^
@@ -104228,7 +104495,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||oxj8hcfg.xyz^
 ||oxjqezxcwq.com^
 ||oxlcuqavcoqp.com^
-||oxldadxib.com^
 ||oxlffequrkka.com^
 ||oxlgigavrc.com^
 ||oxlhcuol.com^
@@ -104607,13 +104873,13 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pabellgross.pro^
 ||pabidding.io^
 ||pabiogdbcg.com^
-||pabovmxizagg.com^
 ||pabrashu.info^
 ||pac.the-sun.com^
 ||pac.thesun.co.uk^
 ||pac.thetimes.com^
 ||pacase.digital^
 ||paccubokdjry.in^
+||pace-ist.shop^
 ||paceaskhari.com^
 ||pacekami.com^
 ||pacerpropper.com^
@@ -104811,7 +105077,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||paitototo.net^
 ||paitoucaum.com^
 ||pajamabrand.com^
-||pajffadisr.com^
 ||pajmon.pl^
 ||pajqkipubzwe.com^
 ||pajrazrabr.in^
@@ -105296,9 +105561,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pawlmshop.com^
 ||pawmaosia-aa.com^
 ||pawmarkcist.cfd^
+||pawmony.shop^
 ||pawnature.de^
 ||pawns.app^
 ||pawotslmiop.com^
+||pawrently.com^
 ||pawshoebox.com^
 ||pawsnarcotic.com^
 ||pawsnug.com^
@@ -105536,6 +105803,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pcradiology.com^
 ||pcs-wps.net^
 ||pcs.capgroup.com^
+||pcscloud.site^
 ||pcsjcd.com^
 ||pcspeedup.com^
 ||pcstat.kugou.com^
@@ -106407,6 +106675,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||phocmogo.com^
 ||phodhithp.com^
 ||phoenixad.io^
+||phogabaoyen.com^
 ||phognult.com^
 ||phokukse.com^
 ||phomoach.net^
@@ -106431,7 +106700,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||phontario.com^
 ||phonydepth.com^
 ||phonystand.com^
-||phonyview.pro^
 ||phoobsoo.net^
 ||phoognol.com^
 ||phoohuckie.net^
@@ -106448,7 +106716,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||phormlabs.com^
 ||phoroglopsu.com^
 ||phortaub.com^
-||phosama.co.za^
 ||phosphate50.com^
 ||phothemtoups.com^
 ||photibrusc.store^
@@ -106507,6 +106774,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||phpmyvisites.net^
 ||phpoland.com^
 ||phportugal.com^
+||phprntlacurd.com^
 ||phpstat.com^
 ||phpteaser.ru^
 ||phptricks.ir^
@@ -106709,6 +106977,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pikeberth.com^
 ||pikfein.com^
 ||pikleimbalms.com^
+||pikleluxe.com^
 ||pikoj.g2gbar.com^
 ||piksel.com^
 ||pikvernada.com^
@@ -106853,6 +107122,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pinkpine.ie^
 ||pinkshopeg.com^
 ||pinkuro.com^
+||pinky-shop.com^
 ||pinliebe.shop^
 ||pinnaveris.org^
 ||pinotfoozles.cfd^
@@ -106981,6 +107251,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pitiplus.app^
 ||pitpl.top^
 ||pitsensation.com^
+||pittaapert.store^
 ||pittedshends.cfd^
 ||pituscarn.store^
 ||pitviperbril.com^
@@ -107073,6 +107344,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||piwik.lepe.es^
 ||piwik.lexum.com^
 ||piwik.lhhh.de^
+||piwik.locally.nl^
 ||piwik.lurse.de^
 ||piwik.luxnet.ua^
 ||piwik.lwl.org^
@@ -107104,6 +107376,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||piwik.pirati.cz^
 ||piwik.pixelconcept.de^
 ||piwik.pling.com^
+||piwik.premm.it^
 ||piwik.pro^
 ||piwik.prz.edu.pl^
 ||piwik.puggle.xyz^
@@ -107302,6 +107575,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pixel.ex.co^
 ||pixel.facebook.com^
 ||pixel.fasttony.com^
+||pixel.fasttony.es^
 ||pixel.fohr.co^
 ||pixel.foodvillage-bd.com^
 ||pixel.gliacloud.com^
@@ -107645,6 +107919,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pl-bn4m.sbs^
 ||pl-bnk6.sbs^
 ||pl-firma.com^
+||pl-firma.net^
 ||pl-gj4tj.sbs^
 ||pl-gov.eu.cc^
 ||pl-j8d3t.sbs^
@@ -107784,6 +108059,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||plantshopp.de^
 ||planttroo.org^
 ||planttshop.com^
+||plantviolet.com^
 ||plarclck.com^
 ||plarimocl.com^
 ||plarimoplus.com^
@@ -108009,6 +108285,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pliqkl24pl.eu.cc^
 ||plissetox.com^
 ||plista.com^
+||plitchcaph.com^
 ||plixom.com^
 ||pljm8391.mom^
 ||pljyoutlet.com^
@@ -108035,6 +108312,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||plog.vstlsrv.com^
 ||plog.xbp.io^
 ||plokij1.com^
+||plonvir.net^
 ||ploppedpipy.cyou^
 ||plorexdry.com^
 ||plotil.com^
@@ -108152,7 +108430,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pm14.com^
 ||pm2za.cc^
 ||pm50trk.com^
-||pmahcualf.com^
 ||pmanager.pl^
 ||pmap.sandai.net^
 ||pmbox.biz^
@@ -108195,6 +108472,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pnd.gs^
 ||pneumahameil.com^
 ||pnfkhu.hygi.de^
+||pnfp.lol^
 ||png-group.net^
 ||pngme.ru^
 ||pngmin.cn^
@@ -108397,6 +108675,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||polaroid.com.de^
 ||polaroids.at^
 ||polarricol.store^
+||polarsupply.de^
 ||polatads.com^
 ||poldertourer.com^
 ||pole.6rooms.com^
@@ -108785,6 +109064,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||posthog.24tv.ua^
 ||posthog.azki.com^
 ||posthog.boxo.io^
+||posthog.bushe.ru^
 ||posthog.busy.app^
 ||posthog.emex.ru^
 ||posthog.fly.io^
@@ -109067,6 +109347,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||prbn.ru^
 ||prchecker.info^
 ||prd-dvc-pod3-telemetry-alb-podlb-2098002532.us-east-1.elb.amazonaws.com^
+||prd-eus2-rc-df-analytics-gtm.azurewebsites.net^
 ||prd-qlik-telemetry.servicebus.windows.net^
 ||prd.metro-telemetry.appelis.app^
 ||prdmjutk.com^
@@ -109158,6 +109439,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||preokcriix.live^
 ||preonesetro.com^
 ||prepaymint.net^
+||prepdesk.site^
 ||preplaneffie.com^
 ||prepulobol.store^
 ||prequel.tv^
@@ -109420,6 +109702,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||pro-web.net^
 ||pro.ac^
 ||pro.aminoxy.com^
+||pro.autojs.org^
 ||pro.baidu.com^
 ||pro.benblinds.ca^
 ||pro.bouchey.com^
@@ -109499,6 +109782,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||prod-global-mobile-analytics-global.nubank.com.br^
 ||prod-global-mobile-analytics.nu.com.co^
 ||prod-global-mobile-analytics.nu.com.mx^
+||prod-global-mobile-analytics.nu.net^
 ||prod-ingress-telemetry-4c22fc0d5ec1dd2e.elb.us-east-1.amazonaws.com^
 ||prod-metrics.fallback.familyisland.games^
 ||prod-metrics.familyisland.games^
@@ -110493,6 +110777,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||puolqoparnf.net^
 ||puolqoparnf.xyz^
 ||pup8b209b2.com^
+||pupalvamps.com^
 ||pupandcups.com^
 ||pupazridis.store^
 ||pupiljake.com^
@@ -111073,6 +111358,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||q4173l5op.com^
 ||q4ddve.casa^
 ||q4ee.top^
+||q4u5298s.xyz^
 ||q511.wpbf.com^
 ||q58nf16jd3.com^
 ||q5viqnac3i.com^
@@ -111185,7 +111471,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qcb2xeg.icu^
 ||qccoccocmedia.vn^
 ||qccxvtfbk.com^
-||qceartfa.com^
 ||qcenter-metrics-device.api.myqnapcloud.cn^
 ||qcenter-metrics-device.api.myqnapcloud.com^
 ||qcgg.net^
@@ -111334,6 +111619,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qguwoq.cn^
 ||qgvvtce98.com^
 ||qgxbluhsgad.com^
+||qgyjjanwpq.com^
 ||qh88.pro^
 ||qhaarkie.com^
 ||qhaelqata.com^
@@ -111571,6 +111857,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qload.ru^
 ||qlog.qcore.com^
 ||qlp.egghead.link^
+||qlpd.net^
 ||qlplayerr.cyou^
 ||qlqlblscag.shop^
 ||qls7v6jd3.com^
@@ -111890,6 +112177,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qualinostro.com^
 ||qualiprodukt.de^
 ||qualishopde.de^
+||qualitaetart.com^
 ||quality-ad.com^
 ||qualityporn.biz^
 ||qualmscres.store^
@@ -111908,6 +112196,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||quantcast.com^
 ||quantcount.com^
 ||quantelgptv7.net^
+||quantesy.com^
 ||quantiumax.one^
 ||quantiumflex.com^
 ||quantobe.com^
@@ -112029,6 +112318,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||quick-kredit.com^
 ||quickads.net^
 ||quickbd.net^
+||quickclover.com^
 ||quickdna.com^
 ||quickfilmz.com^
 ||quickflirt.com^
@@ -112095,7 +112385,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||quirky-seat.com^
 ||quirkybliss.com^
 ||quirkybodega.com^
-||quirkycamera.pro^
 ||quirkynameco.com^
 ||quirkysugar.com^
 ||quisma.com^
@@ -112147,6 +112436,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||quoteous.com^
 ||quotes.com^
 ||quotestream.com^
+||quotestudio.app^
 ||quotex.com.in^
 ||quotex.com^
 ||quotex.io^
@@ -112194,10 +112484,12 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qvtdhchdvyw.com^
 ||qvtsdmtmmp.com^
 ||qvu377cbhhgu.top^
+||qvunfguuday.com^
 ||qvxvvjom.com^
 ||qw7fi6e194.com^
 ||qwadro.com^
 ||qwapi.com^
+||qwastudio.com^
 ||qwcnmty.top^
 ||qwcwnjk.com^
 ||qwdbsjnql.com^
@@ -112297,7 +112589,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||qzgjprj.com^
 ||qzgn652dp.com^
 ||qzip.cjb.net^
-||qzisucqpy.com^
 ||qzl8.destinia.fi^
 ||qzlog.com^
 ||qzos9ou.xyz^
@@ -112946,6 +113237,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rbbf.07kfh.cn^
 ||rbbko.com^
 ||rbcdn.com^
+||rbcode.net^
 ||rbcv7s.ru^
 ||rbdomain.ru^
 ||rbdsz.com^
@@ -113898,7 +114190,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||renwebp.online^
 ||renzhen8.cn^
 ||reo682syw4.com^
-||reoahghrlfuy.com^
 ||reocp.com^
 ||reodev.com^
 ||reomanager.pl^
@@ -113936,6 +114227,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||replug.link^
 ||replusstore.com^
 ||reply.osv.com^
+||replyhook.app^
 ||replytab.com^
 ||repocket.com^
 ||reponses.com^
@@ -114072,6 +114364,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||restchess.com^
 ||restcloud.xyz^
 ||resterent.com^
+||restesvampey.com^
 ||restewardom.net^
 ||restfultools.com^
 ||restilen.pl^
@@ -114264,6 +114557,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rewords.pl^
 ||rewritewitch.com^
 ||rewvfghoya.com^
+||rex-mcdonald.com^
 ||rexadvert.xyz^
 ||rexamedia.com^
 ||rexargue.com^
@@ -114397,7 +114691,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rhiotdsmin.com^
 ||rhiowzaht.com^
 ||rhitam.com^
-||rhivio.cfd^
 ||rhl8r3dkc.com^
 ||rhlxm.top^
 ||rhmkttrack.com^
@@ -114494,7 +114787,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||richwebmedia.com^
 ||richylam.org^
 ||riciinven.store^
-||ricjruogronp.com^
 ||rickijavrr.in^
 ||rickoshop.org^
 ||rickparty.com^
@@ -114506,7 +114798,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||riconbaula.store^
 ||riconcateg.store^
 ||ricopin.com^
-||ricthaaz.com^
 ||riczqmzn.com^
 ||rid.rainbd.com^
 ||rid.waizbd.com^
@@ -114515,9 +114806,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ridegefuhl.de^
 ||ridelbergu.de^
 ||ridepush.com^
+||ridersdeals.com^
 ||rides-24.com^
 ||ridesprint.com^
 ||ridestore.ru^
+||ridetavifa.store^
 ||ridge-cdn.lol^
 ||ridge-cdn.xyz^
 ||ridgebuild.qpon^
@@ -114609,6 +114902,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rinad.jp^
 ||rinagym.pl^
 ||rinaow.com^
+||rinaqnjh.in^
 ||rincochiar.store^
 ||rincoretro.store^
 ||rindespect.click^
@@ -114715,6 +115009,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ritualsupply.net^
 ||ritualunlike.com^
 ||ritualwants.com^
+||ritufgrand.store^
 ||ritz-club.net^
 ||ritztours.com^
 ||ritzumafma.com^
@@ -114793,7 +115088,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rkn3.net^
 ||rkn71nkr.com^
 ||rkomf.com^
-||rkoofgxarguv.com^
 ||rkozoima.com^
 ||rkrhfl.icu^
 ||rkrpcguv.com^
@@ -114901,7 +115195,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rnldustal.com^
 ||rnlvv.oolala.com^
 ||rnmd.net^
-||rnofuxgaz.com^
 ||rnotraff.com^
 ||rnpiysana.com^
 ||rnpufzsiovbo.com^
@@ -115013,6 +115306,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||robspabah.com^
 ||robtopol.in^
 ||robust-sail.pro^
+||robustbass.com^
 ||robustlamp.com^
 ||roby-casinos.fr^
 ||robycasinofr.fr^
@@ -115218,6 +115512,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||rookinews.com^
 ||rookishbirde.com^
 ||roolv.jewlr.com^
+||room-haven.shop^
 ||room-lure.shop^
 ||room2021.net^
 ||roomdina.com^
@@ -115412,6 +115707,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||royal-host.com^
 ||royalcactus.com^
 ||royalclass.info^
+||royalcollege.lk^
 ||royalcount.de^
 ||royaldebank.com^
 ||royaldiam.com^
@@ -115427,6 +115723,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||royalsweeper.com^
 ||royapp.com^
 ||royaura.shop^
+||roycefree.com^
 ||roylyf.com^
 ||royusionalty.com^
 ||roywc0iql.com^
@@ -117199,6 +117496,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sa.tlc.com^
 ||sa.uswitch.com^
 ||sa.windows.com^
+||sa79vip475.quest^
+||sa79vip475.space^
 ||sa7eer.com^
 ||sa8zdui.com^
 ||sa909.com^
@@ -117693,6 +117992,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||salungavine.com^
 ||saluteperme.com^
 ||salvador24.com^
+||salvadoze.com^
 ||salvenmoser.ch^
 ||salweysends.qpon^
 ||salzburgmode.at^
@@ -118012,6 +118312,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sancydubai.com^
 ||sandalo.shop^
 ||sandalon.com^
+||sandaphie.com^
 ||sandbank56.com^
 ||sandbank68.com^
 ||sandbella.com^
@@ -118098,7 +118399,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||saqabncwoomw.in^
 ||saqadbnupmk.com^
 ||saqoctqho.com^
-||saqrusmmylc.com^
 ||saqsryoch.in^
 ||saqvalqri.com^
 ||sar.66.ru^
@@ -118268,6 +118568,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sbaffiliates.com^
 ||sbagamiaot.store^
 ||sbatzb.ebags.com^
+||sbb-info.sbs^
 ||sbbanalytics.com^
 ||sbbanner.com^
 ||sbbjdr.com^
@@ -118661,6 +118962,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||scottgmorton.com^
 ||scottsdale.com^
 ||scoutanalytics.net^
+||scoutervayu.com^
 ||scoutle.com^
 ||scoutsdregs.com^
 ||scoutsgamer.com^
@@ -119020,6 +119322,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||seat6worn.com^
 ||seatac15.com^
 ||seatfreebook.ru^
+||seatlgeek.com^
 ||seatoria.com^
 ||seatrackingdomain.com^
 ||seatsmoke.com^
@@ -119036,6 +119339,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
 ||secantgcd.com^
+||secatvolum.store^
 ||seccc.jasjas.xyz^
 ||secchmembr.store^
 ||seccint.com^
@@ -119245,6 +119549,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||seekdaters.com^
 ||seekfinddate.com^
 ||seekingquest.com^
+||seekly.website^
 ||seekmo.com^
 ||seekmymatch.com^
 ||seekmyshop.com^
@@ -119366,6 +119671,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sellano.de^
 ||sellarafaeli.com^
 ||sellbuyads.cn^
+||seller-metrics-server.realtime-prod.mercadolivre.com.br^
 ||sellerhiking.com^
 ||sellfox.com^
 ||sellhealth.com^
@@ -119620,6 +119926,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sentry.ims.de^
 ||sentry.indevo.cz^
 ||sentry.inn.ru^
+||sentry.inoor.ir^
 ||sentry.insea.io^
 ||sentry.io^
 ||sentry.ionos.com^
@@ -119692,6 +119999,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sentry.nplus1.ru^
 ||sentry.obrio.net^
 ||sentry.odysee.tv^
+||sentry.offisy.at^
 ||sentry.onix.team^
 ||sentry.onlim.com^
 ||sentry.oqee.net^
@@ -119746,7 +120054,9 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sentry.smclk.net^
 ||sentry.smf.ai^
 ||sentry.smi2.tech^
+||sentry.smysl.pro^
 ||sentry.snov.io^
+||sentry.solva.kz^
 ||sentry.sonarr.tv^
 ||sentry.sonel.pl^
 ||sentry.sscdn.co^
@@ -119951,6 +120261,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sermondirt.com^
 ||serndalle.com^
 ||sernen.com^
+||serocfranc.store^
 ||serolan.com^
 ||serolushop.de^
 ||seronia.de^
@@ -120371,9 +120682,9 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sftapi.com^
 ||sfxfr8.com^
-||sfybuzosbl.com^
 ||sfzjk57ov.com^
 ||sg-analytics.pikapod.net^
+||sg-ap-metrics.sussybaka.store^
 ||sg-casino.fr^
 ||sg-sougou.com^
 ||sg.kapi.vc^
@@ -120692,6 +121003,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sgtm.canacare.se^
 ||sgtm.canmet.eu^
 ||sgtm.caps.nl^
+||sgtm.carkone.fi^
 ||sgtm.carl-ras.dk^
 ||sgtm.carlab.dk^
 ||sgtm.catrolle.be^
@@ -120896,6 +121208,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sgtm.extr4.it^
 ||sgtm.ezys.lt^
 ||sgtm.fabory.com^
+||sgtm.fabrick.com^
 ||sgtm.facturee.de^
 ||sgtm.fadelab.it^
 ||sgtm.fairmont.de^
@@ -121697,6 +122010,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sgtm.teamz.co.jp^
 ||sgtm.tebonin.de^
 ||sgtm.tecalor.de^
+||sgtm.techmart.bg^
 ||sgtm.teg.london^
 ||sgtm.tekt.hu^
 ||sgtm.teleror.no^
@@ -121932,6 +122246,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||shafana.my.id^
 ||shaferglazer.com^
 ||shafou.com^
+||shaftsdout.cfd^
 ||shagaholic.com^
 ||shaggysinner.com^
 ||shaggytank.com^
@@ -121991,7 +122306,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||shapecertain.com^
 ||shapecomb.com^
 ||shapeden.com^
-||shapfaogvhca.com^
 ||shapo.fun^
 ||shapsheca.shop^
 ||sharanilodge.com^
@@ -122254,11 +122568,13 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||shiplaped.com^
 ||shipment30.top^
 ||shiporama.com^
+||shipper-s.com^
 ||shippills.com^
 ||shipsboats.com^
 ||shipsmotorw.xyz^
 ||shirem.com^
 ||shirondeau.com^
+||shirrrioter.cfd^
 ||shirtbladder.com^
 ||shirteu365.com^
 ||shirts.onno.com^
@@ -122334,6 +122650,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||shooltuca.net^
 ||shoordaird.com^
 ||shoorsoassep.net^
+||shoot-gaming.cfd^
 ||shootheave.com^
 ||shootwhy.com^
 ||shop-analytics.fcaugsburg.de^
@@ -122645,7 +122962,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||shuangfuqd.com^
 ||shuanshu.com.com^
 ||shubeeghaul.net^
-||shudmeocc.com^
 ||shufapeixun.shop^
 ||shuffele.com^
 ||shufflefell.com^
@@ -122778,6 +123094,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sign-doc.com^
 ||sign-service.ru^
 ||sign.use-neo.com^
+||signaeffem.store^
 ||signal.diftal.dk^
 ||signal.dr.com.tr^
 ||signal.wida.sa^
@@ -122831,6 +123148,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||silentjackal.com^
 ||silentsingle.com^
 ||silentwrench.com^
+||siletzsticta.cfd^
 ||silicledomy.com^
 ||silicon-dolls.ru^
 ||siliconslow.com^
@@ -122838,6 +123156,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||silimbompom.com^
 ||silimex24.de^
 ||silk-ova.shop^
+||silk-trend.shop^
 ||silkbers.com^
 ||silklanguish.com^
 ||silkroadweb.com^
@@ -123364,6 +123683,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sks.mrkhub.com^
 ||skse64.com^
 ||skt-asum.com^
+||sktkjsgas.eu.cc^
 ||skul.de^
 ||skullmagnets.com^
 ||skullteeth.com^
@@ -123676,6 +123996,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||smac-ssp.com^
 ||smaclick.com^
 ||smadex.com^
+||smaflowi.vip^
 ||smalk.ai^
 ||smallbulb.com^
 ||smallel.icu^
@@ -123710,7 +124031,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||smart-98172.cfd^
 ||smart-98362.cfd^
 ||smart-98372.cfd^
-||smart-98572.cfd^
 ||smart-bdash.com^
 ||smart-below.com^
 ||smart-c.jp^
@@ -128743,6 +129063,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||snobobugge.store^
 ||snolm.com^
 ||snonoz.com^
+||snonsfsrfeh.com^
 ||snoobi.com^
 ||snoobi.fi^
 ||snookjigs.com^
@@ -129260,6 +129581,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||songhou.com^
 ||songirooni4.xyz^
 ||songlaoban.cn^
+||songloivinh.com^
 ||songmedicine.com^
 ||songoasis.com^
 ||songsar.com^
@@ -129594,6 +129916,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||spaceshine.de^
 ||spacesniffer.app^
 ||spacetraff.com^
+||spaceware.info^
 ||spacexfy.ai^
 ||spacha2026.com^
 ||spade.twitch.tv^
@@ -129602,6 +129925,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||spaderonium.com^
 ||spadescup.net^
 ||spadework.org^
+||spadoitrang.com^
 ||spads.me^
 ||spadsync.com^
 ||spaines.pw^
@@ -129884,6 +130208,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||spitter.pauk.ru^
 ||spiwearpl.com^
 ||spixel.adsafeprotected.com^
+||spjrfcogai.com^
 ||spjysa.only.com^
 ||spklds.com^
 ||spklmis.com^
@@ -130182,6 +130507,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sqm.telemetry.microsoft.com.nsatc.net^
 ||sqmn4wncty.com^
 ||sqoo.co^
+||sqoutit.com^
 ||sqoutout.com^
 ||sqripu.selsey.pl^
 ||sqrt-5041.de^
@@ -132153,6 +132479,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sst.adveco.co^
 ||sst.advencya.com^
 ||sst.aemster.com^
+||sst.aeserver.com^
 ||sst.afflelou.com^
 ||sst.afflelou.es^
 ||sst.afina.com^
@@ -132430,6 +132757,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sst.bonprix.nl^
 ||sst.bonprix.no^
 ||sst.bonprix.pl^
+||sst.bonprix.ro^
 ||sst.bonprix.se^
 ||sst.bonprix.sk^
 ||sst.bonst.no^
@@ -133317,6 +133645,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sst.jumbo.com.tr^
 ||sst.jumbobag.fr^
 ||sst.jump.nl^
+||sst.jungfeld.com^
 ||sst.juniqe.com^
 ||sst.juno.bio^
 ||sst.juoindia.com^
@@ -133431,6 +133760,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sst.kpfishing.fi^
 ||sst.kreditnu.dk^
 ||sst.krh.de^
+||sst.krydra.no^
 ||sst.ktm.com^
 ||sst.kudzu.be^
 ||sst.kumon.co.uk^
@@ -134022,6 +134352,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sst.pathlabs.com^
 ||sst.pauw.com^
 ||sst.pawz.rs^
+||sst.payot.com^
 ||sst.pazzox.nl^
 ||sst.pbwatx.com^
 ||sst.pcb.co.uk^
@@ -136321,6 +136652,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||stats.riko.dev^
 ||stats.rip^
 ||stats.risanne.nl^
+||stats.room.sh^
 ||stats.rssc.com^
 ||stats.rustore.ru^
 ||stats.ruv.de^
@@ -136754,6 +137086,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||stillpeace.com^
 ||stillsonline.de^
 ||stillval.com^
+||stillyvasts.cfd^
 ||stilmark.de^
 ||stilmoment.com^
 ||stilnovo.fr^
@@ -136773,11 +137106,11 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||stingyhandy.com^
 ||stingyshoe.com^
 ||stingyspoon.com^
-||stioppdibo.com^
 ||stipe.audio.golf^
 ||stipinoxis.click^
 ||stippleit.com^
 ||stireyolk.cfd^
+||stitch-lure.shop^
 ||stitcherads.com^
 ||stitches08.com^
 ||stiwa.test.de^
@@ -136791,6 +137124,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||stliom.vidaxl.cz^
 ||stlkkfrva.site^
 ||stlkkfrvc.online^
+||stluxurysle.com^
 ||stm.aboutnet.gr^
 ||stm.auxis.com^
 ||stm.bellavia.gr^
@@ -137076,6 +137410,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||strandedgame.com^
 ||strands.com^
 ||strangesink.com^
+||strap-hub.shop^
 ||strap-stane.shop^
 ||strapcalif.store^
 ||strapology.co^
@@ -137838,6 +138173,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sutheksoumt.net^
 ||sutiletoroid.com^
 ||sutisrm.com^
+||sutowightly.cfd^
 ||sutterpoint.com^
 ||sutuqe.com^
 ||sutzcaladow.com^
@@ -138191,7 +138527,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||swwtj3.cyou^
 ||swxia.com^
 ||swypeconnect.com^
-||swyrhoosbcin.com^
 ||swzec.store^
 ||sx.fakjkwp.cn^
 ||sx.ifm.org^
@@ -138262,6 +138597,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||syconesglue.qpon^
 ||sycosescsi.qpon^
 ||sycrgc.xyz^
+||syderstone.com^
 ||sydneygfpink.com^
 ||sydneypools1.net^
 ||sydotvil.shop^
@@ -138380,6 +138716,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||sysgtjoki.com^
 ||syslike.org^
 ||sysmeasuring.net^
+||sysnote.net^
 ||sysomos.com^
 ||system74.net^
 ||systemads.net^
@@ -138958,6 +139295,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||t.numspot.com^
 ||t.nurivacalm.com^
 ||t.nusports.com^
+||t.nylas.com^
 ||t.nypost.com^
 ||t.ofsys.com^
 ||t.ohdearbaby.no^
@@ -139763,6 +140101,8 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tanasf.shop^
 ||tanasi.shop^
 ||tanasj.shop^
+||tanask.shop^
+||tanasl.shop^
 ||tanasm.shop^
 ||tanasn.shop^
 ||tanasx.shop^
@@ -139795,6 +140135,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tankmarshy.com^
 ||tankproblems.com^
 ||tanmono.com^
+||tannasecoart.cfd^
 ||tanner-shoes.com^
 ||tannoshealth.com^
 ||tanop.uk^
@@ -140022,6 +140363,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||targhe.info^
 ||targuslame.com^
 ||tarifflofty.com^
+||tariknathan.com^
 ||tarinraiding.com^
 ||tarioland.site^
 ||tarmei.com^
@@ -140050,6 +140392,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tasartbook.com^
 ||taschenair.shop^
 ||taschenalle.com^
+||taschenart.shop^
 ||taschenclub.com^
 ||taschenfan.com^
 ||taschenhot.top^
@@ -140083,7 +140426,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tatango.com^
 ||tatatowers.com^
 ||tataupavira.com^
-||tatcilbic.com^
 ||tathcloseup.com^
 ||tathgraping.com^
 ||tatihese.com^
@@ -140989,6 +141331,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||telemetry.directus.io^
 ||telemetry.djiucf602.com^
 ||telemetry.docusign.net^
+||telemetry.dogwaterstud.io^
 ||telemetry.doitbeststore.com^
 ||telemetry.domclick.ru^
 ||telemetry.dossier.aien.me^
@@ -141044,6 +141387,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||telemetry.happywars.net^
 ||telemetry.helan.be^
 ||telemetry.hipages.com.au^
+||telemetry.hopr.mobi^
 ||telemetry.horizonfitness.ca^
 ||telemetry.horizonfitness.com^
 ||telemetry.hot.sgc-services.com^
@@ -141297,11 +141641,15 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||telemparte.store^
 ||telempionx.click^
 ||telenexoti.cyou^
+||telenitepr.cyou^
+||telenitepr.help^
 ||telenitepr.luxe^
+||telenitepr.yoga^
 ||telenitxod.work^
 ||telenixxxr.wiki^
 ||telenkprox.click^
 ||telennovat.shop^
+||telenorthp.beer^
 ||telenorthp.bond^
 ||telensrosu.click^
 ||telenxzxvc.cyou^
@@ -141450,6 +141798,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||telferwhined.com^
 ||teliad.com^
 ||teliad.de^
+||teligrambot.xyz^
 ||telize.com^
 ||teljari.is^
 ||teljerskap.net^
@@ -141553,6 +141902,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tenorshare.ai^
 ||tenping.kr^
 ||tense080227.shop^
+||tenseiexe.com^
 ||tenseikaiun.com^
 ||tenshogear.com^
 ||tensuredrill.com^
@@ -141627,7 +141977,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||terren.cntv.cn^
 ||terrex.pl^
 ||terriblerisk.com^
-||terribleroll.pro^
 ||terrificdark.com^
 ||terrout9.biz^
 ||tervexo.pro^
@@ -142054,6 +142403,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||theetheks.com^
 ||theetholri.xyz^
 ||theeversite.com^
+||theface.fun^
 ||thefacux.com^
 ||thefeedtrust.org^
 ||thefilter.com^
@@ -142381,6 +142731,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||throughlnk.com^
 ||thrtle.com^
 ||thruport.com^
+||thryvefresh.com^
 ||thsdbj.com^
 ||thstats.com^
 ||thstvv.com^
@@ -142440,6 +142791,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tiantiansoft.com^
 ||tianwenhu.com^
 ||tianxianpei.com^
+||tianyigh.com^
 ||tiaolianbao.com^
 ||tiaosa.cn^
 ||tiara.daum.net^
@@ -142528,12 +142880,14 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tigkeebnv.com^
 ||tignouwo.net^
 ||tigodoudu.help^
+||tigoqsops.help^
 ||tigragroup.com^
 ||tihealth.com^
 ||tiiny.io^
 ||tiiny.site^
 ||tijgksets.com^
 ||tikalcasino1.fr^
+||tikepll-pl.cyou^
 ||tikgeeker.com^
 ||tikhomira.link^
 ||tiki.bet^
@@ -143536,6 +143890,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||toolbox.nl^
 ||toolcapital.com^
 ||tooledundon.com^
+||toolget.org^
 ||toolhavenhub.com^
 ||toolhelper.xyz^
 ||toolipan.com^
@@ -143647,6 +144002,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||topapo24.com^
 ||topautoteile.com^
 ||topaz-analytics.com^
+||topbctvwaoz.com^
 ||topbestgames.com^
 ||topbetfacts.site^
 ||topbetfast.com^
@@ -143791,6 +144147,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||torafind.shop^
 ||torarymor.world^
 ||torassquegs.qpon^
+||torathaym.com^
 ||toratoe.com^
 ||torayche.com^
 ||torazeme.com^
@@ -143821,6 +144178,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||toroexoclk.com^
 ||torondo.de^
 ||tororango.com^
+||toroskazanec.com^
 ||torpapa.com^
 ||torpidtongue.com^
 ||torpsol.com^
@@ -143968,6 +144326,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||toxaminhones.com^
 ||toxampoabo.com^
 ||toxic-writer.xyz^
+||toxitymugil.cfd^
 ||toxpevgtfenq.com^
 ||toxsales1.com^
 ||toxtren.com^
@@ -144340,6 +144699,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tr7593.pollin.de^
 ||tr9n6lto.xyz^
 ||tra.zonia.ro^
+||trabasborb.store^
 ||trabo-garten.de^
 ||trabro.com^
 ||trac.clicplan.fr^
@@ -146731,6 +147091,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||trade-24.com^
 ||trade-call.com^
 ||trade-curre.com^
+||trade-edge.net^
 ||trade-gpt.ai^
 ||trade-mbitm.com^
 ||trade-x.net^
@@ -147946,7 +148307,9 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tsu-68.com^
 ||tsu.finbeam.ch^
 ||tsuchigumo.com^
+||tsuflood.de^
 ||tsukiyomian.com^
+||tsuload.de^
 ||tsumatsuma.xyz^
 ||tsunokakushi.com^
 ||tsv-erste.de^
@@ -147991,6 +148354,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tt5omubqh.com^
 ||ttaj.cn^
 ||ttarget.ru^
+||ttax.us^
 ||ttbaods.com^
 ||ttbc33.com^
 ||ttbm.com^
@@ -148139,7 +148503,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tuenti.com^
 ||tuesdaypeas.com^
 ||tueusi.com^
-||tufarhdweg.com^
 ||tufmcenahh.com^
 ||tufpzushurk.in^
 ||tugngs.tui.com^
@@ -148307,7 +148670,6 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||tutvp.com^
 ||tuumdollop.com^
 ||tuvas-tech.de^
-||tuvovppihha.com^
 ||tuvtpxp.cn^
 ||tuwaqtjcood.com^
 ||tuxablgzepi.in^
@@ -148517,6 +148879,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||twlcyc.cn^
 ||twltter.com^
 ||twlw3vuz5f.com^
+||two-tops.com^
 ||two.cm.com^
 ||two.fsylr.com^
 ||two.tio.nl^
@@ -148869,6 +149232,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||uaedisscount.com^
 ||uaeqvfwofd.com^
 ||uagritech.com^
+||ualdebrasco.com^
 ||uamobile.net^
 ||uarating.com^
 ||uarleniz.com^
@@ -149277,160 +149641,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||ujmall.shop^
 ||ujnkn.com^
 ||ujooagoi.com^
-||ujpcgbe9.xyz^
-||ujpfkhrose.com^
-||ujq1.destinia.is^
-||ujscdn.com^
-||ujth40hl4i.com^
-||ujtjjj.com^
-||ujudimall.com^
-||uk-bet.com^
-||uk-mums.com^
 ||uk-tracking.nextdoor.com^
-||uk.adpinfo.com^
-||uk.ads.hexus.net^
-||uk.cr^
-||uk.enorsia.com^
-||uk.gp^
-||uk.nu^
-||uk.ragediet.com^
-||uk.st^
-||uk3eymh64c.com^
-||uk3oi.adgze.cn^
-||uk529u0.cn^
-||uk8866.cn^
-||ukacclmza.net^
-||ukaf23trk.com^
-||ukaglktn.com^
-||ukbanners.com^
 ||ukc-onenote-telemetry.officeapps.live.com^
 ||ukc-visio-telemetry.officeapps.live.com^
-||ukchatnet.online^
-||ukedrevenue.com^
-||ukeiae.com^
-||ukeprice.com^
-||ukeru.net^
-||ukga.meble.pl^
-||ukgm0qily.com^
-||ukhii.com^
-||ukhostingvps.com^
-||ukit.me^
-||ukjmrtjwlk.com^
-||ukjwyv.icu^
-||uklad61.help^
-||ukoffzeh.com^
-||ukomsooz.com^
-||ukowiretools.com^
-||ukpsal.icu^
-||ukrain.pl^
-||ukrashulya.ru^
-||ukrbanner.net^
-||ukrcargo.com^
-||uks8suop4b.com^
-||ukskrokus.pl^
-||uktc.ijento.com^
-||ukvisaportal.com^
-||ukwtsegym.com^
-||ukxjqnte.com^
-||ukyuwmkcfnbr.com^
-||ukzjce.idus.com^
-||ul-potolki.ru^
-||ul.hl.cn^
-||ulaen.com^
-||ulamafluxive.com^
-||ulcerextent.com^
-||ulends.fr^
-||ulesxbo.com^
-||ulfjwlqxp.com^
-||ulgaoddlugu.pl^
-||ulgroiklf.com^
-||ulibodymnqip.com^
-||ulic.baidu.com^
-||ulikeu.top^
-||ulink.cc^
-||ulisxyz.store^
-||ulixes.pl^
-||ulk8je1fv9.com^
-||ulkoxbra.com^
-||ulla.com^
-||ullis-immo.com^
-||ulm.ac.id^
-||ulmdb.cn^
-||ulmmoq87xp.com^
-||ulmoyc.com^
-||ulniqo.com^
-||ulny.cn^
-||ulockergg.top^
-||ulog.gifshow.com^
-||ulogin.ru^
-||ulogix.ru^
-||ulogs.umeng.com^
-||ulok.zutodu.cn^
-||ulokbfgrpym.com^
-||ulonataghain.com^
-||ulosadslcf.com^
-||ulowirgaiy.com^
-||ulpanimarcos.com^
-||ulpazek.shop^
-||ulpsd9qmja.com^
-||ulqezim.online^
-||ulqmotgloet.com^
-||ulrtub.cloud^
-||ulsyventra.info^
-||ult-blk-cbl.com^
-||ultima7.fun^
-||ultimedia.com^
-||ultra-cda.pl^
-||ultra-hoster.nl^
-||ultra-rv.com^
 ||ultraadserver.com^
-||ultraai.chat^
-||ultrabit.ws^
-||ultracomb.com.ar^
-||ultraheatpro.com^
-||ultraind.in^
-||ultraiso.net^
-||ultramercial.com^
-||ultraniaq.com^
-||ultraoranges.com^
-||ultrapay.net^
-||ultras-schal.com^
-||ultrashare.net^
-||ultrasonica.info^
-||ultrasponsor.com^
-||ultrathots.live^
-||ultratime.info^
-||ultratoddy.store^
-||ultratrck.com^
-||ultravalid.com^
-||ultraviolety.com^
-||ultrawa.com^
-||ultsearch.com^
-||uluhitailge.cfd^
-||ulusalofis.com^
-||ulutlv.esprit.fr^
-||ulven.forum^
-||ulverix.pro^
-||ulwzinqlh0.com^
-||ulx1cpf68.com^
-||uly-sses8888.com^
-||ulyuom.xyz^
-||ulyvjty4rd.com^
-||um-bredirect.com^
-||um.hd.sohu.com^
-||um.idx.sh^
-||um.merinfo.se^
-||um.nanosite.app^
-||um.nic.md^
-||um.rubban.app^
-||um.zerodha.com^
-||um.zklmce.com^
-||um0.cn^
-||um0592.com^
-||um1.cn^
-||um29.com^
-||um5xcgngmart.xyz^
-||umagnet.ru^
 ||umami-analytics-gqhkvmz3ha-uc.a.run.app^
 ||umami-analytics-omega-dusky.vercel.app^
 ||umami-analytics-one-chi.vercel.app^
@@ -149439,225 +149653,10 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||umami-analytics-u16968.vm.elestio.app^
 ||umami-pixel.chris-latimer.workers.dev^
 ||umami-ravd7j.umami.analytics.nimbusws.com^
-||umami.01o.de^
-||umami.0x2d.dev^
-||umami.0x5e.eu^
-||umami.11yun.xyz^
-||umami.adnixa.com^
-||umami.adwoox.com^
-||umami.arazu.io^
-||umami.b13.live^
-||umami.basekvk.es^
-||umami.berget.ai^
-||umami.bga.sh^
-||umami.blast.tv^
-||umami.bymeier.ch^
-||umami.c1.ndy.onl^
-||umami.c211.io^
-||umami.cleerly.fr^
-||umami.co.nz^
-||umami.coolu.in^
-||umami.cre8ir.net^
-||umami.creanet.sk^
-||umami.cswat.ch^
-||umami.decomp.dev^
-||umami.det-te.ch^
-||umami.dev.pet^
-||umami.dev^
-||umami.dfb.sh^
-||umami.diptesh.me^
-||umami.diygod.dev^
-||umami.dizzy.zone^
-||umami.doge.rs^
-||umami.doogi.io^
-||umami.dtdg.fr^
-||umami.faht.media^
-||umami.firu.dev^
-||umami.fitcom.ag^
-||umami.fldtech.fr^
-||umami.fliw.net^
-||umami.flixer.su^
-||umami.flixera.co^
-||umami.graden.fr^
-||umami.gsk-it.de^
-||umami.hacf.fr^
-||umami.homarr.dev^
-||umami.horner.tj^
-||umami.huexef.cn^
-||umami.idi.se^
-||umami.ihuyi.com^
-||umami.ikxin.com^
-||umami.ioiox.net^
-||umami.ipasign.cc^
-||umami.is^
-||umami.istos.dev^
-||umami.it.ntnu.no^
-||umami.iterar.net^
-||umami.jan.run^
-||umami.journal.do^
-||umami.kiz.ac.cn^
-||umami.kmedv.net^
-||umami.kreatif.tr^
-||umami.kruw.de^
-||umami.kude.it^
-||umami.kyxie.me^
-||umami.lmd.gg^
-||umami.lok1.dev^
-||umami.ludoya.com^
-||umami.lukron.app^
-||umami.mang.dev^
-||umami.mango.nyc^
-||umami.mao.fan^
-||umami.marsedv.de^
-||umami.mathi.moe^
-||umami.maxw.io^
-||umami.mdjpxw.com^
-||umami.mg2.de^
-||umami.michi.fyi^
-||umami.mikon.zone^
-||umami.mtsz.pl^
-||umami.nght.dev^
-||umami.nhaiden.io^
-||umami.nmlnode.cc^
-||umami.noqte.ai^
-||umami.once.sport^
-||umami.or.jp^
-||umami.ordix.de^
-||umami.orhun.dev^
-||umami.orzgk.com^
-||umami.panic.com^
-||umami.pblshd.app^
-||umami.pinku.ai^
-||umami.placeb.ch^
-||umami.platte.ai^
-||umami.playin.gg^
-||umami.reedu.de^
-||umami.reelix.ac^
-||umami.regulus.cz^
-||umami.ridotto.by^
-||umami.rifeeh.com^
-||umami.sanz.pe^
-||umami.sdod.io^
-||umami.seo2.au^
-||umami.sohn.uk^
-||umami.sykb.cc^
-||umami.takuma.de^
-||umami.teqqnet.de^
-||umami.thelan.gr^
-||umami.tsys.top^
-||umami.unsite.fr^
-||umami.upflam.com^
-||umami.vempus.com^
-||umami.vidfast.vc^
-||umami.vidup.to^
-||umami.volt.link^
-||umami.wait.am^
-||umami.warez.cx^
-||umami.wattlab.de^
-||umami.webline.ch^
-||umami.webtor.io^
-||umami.whm.center^
-||umami.wisak.me^
-||umami.youmiai.ai^
-||umami.zrzutka.pl^
-||umami.zusott.com^
-||umamis.top^
-||umaovo.com^
-||umapi.cn^
-||umas.xueqiu.com^
-||umbel.com^
-||umbelcannons.com^
-||umbler.net^
-||umbrellacorp.fr^
-||umbrenquox.com^
-||umbretturb.com^
-||umbrhavn.store^
-||umbrilkanae.qpon^
-||umbrodk.com^
-||umbros.fr^
-||umdc.aliapp.org^
-||umdenfolders.pro^
-||umdm.org^
-||umdwaa.cloud^
-||ume.la^
-||umebella.com^
-||umeng.co^
-||umeng.com^
-||umengcloud.com^
-||umesnmzovqt.com^
-||umewjp.chanti.no^
-||umexalim.com^
-||umgoods.com^
-||umhfftghpj.com^
-||umhjh9rwe.com^
-||umi.cloudful.de^
-||umiwi.com^
-||umkezbh.cn^
-||umlrivwqesg.com^
-||ummdt.estrid.com^
-||umobix.com^
-||umoiku.com^
-||umommy.cyou^
-||umontpeiller.fr^
-||umowszlztw.com^
-||umpirerevved.com^
-||umplcjvqwpt.com^
-||umpsitfast.cfd^
-||umpylancets.qpon^
-||umqigvethe.com^
-||umrd62a7zy.com^
-||ums-telemetry-cn-heytap-gyjujcm-841667316.ap-southeast-1.elb.amazonaws.com^
 ||ums-telemetry-cn.heytapmobi.com^
 ||ums-telemetry-eu-par.heytapmobi.com^
 ||ums-telemetry-india.heytapmobi.com^
 ||ums-telemetry-sgp.heytapmobi.com^
-||umsns.com^
-||umspecrek.ru^
-||umtrack.com^
-||umtrack0.com^
-||umtrack1.com^
-||umtrack2.com^
-||umtudo.com^
-||umusjdiehxbn.com^
-||umv0.com^
-||umv5.com^
-||umvkmdonelu.com^
-||umwatsonc.telemetry.microsoft.us^
-||umwuxk.hotel.cz^
-||umymall.com^
-||umyrn.xyz^
-||un-acs.youku.com^
-||un.52rkl.cn^
-||un.kumparan.com^
-||un.ubaike.cn^
-||un.uznews.uz^
-||un.xz6.com^
-||un1.lawyernet.cn^
-||un1.takefoto.cn^
-||un8hlx.com^
-||unablehope.com^
-||unacorabba.store^
-||unactkiosk.com^
-||unads.ru^
-||unagingvb.shop^
-||unahura.qpon^
-||unakinloggin.com^
-||unalytics.top^
-||unami.delt.io^
-||unamilungoor.com^
-||unanimis.co.uk^
-||unasonoric.com^
-||unathrowler.com^
-||unative.com^
-||unattr.com^
-||unaubeksoan.com^
-||unaux.com^
-||unbaiscope.store^
-||unbalendiv.store^
-||unbanx.me^
-||unbarsmozz.store^
-||unbdxfubm.com^
-||unbewn.byravn.dk^
 ||ungi-analytics.de^
 ||unidentifiedanalytics.web.app^
 ||unikrew-faceoff-telemetry.azurewebsites.net^
@@ -149957,6 +149956,7 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 ||www.tracking.nudgepay.in^
 ||www.trackingstatalytics.com^
 ||www.webanalytics-az.acc.fpfis.tech.ec.europa.eu^
+||www.webanalytics.bpce.fr^
 ||www2.doubleclick.net^
 ||wwwmetricssl.visitflorida.com^
 ||wycdn-prod-metrics.prod.ott-delivery.canal.euw1.aws.io-cplus.net^
